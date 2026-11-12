@@ -1,0 +1,524 @@
+/* Toybox polish — responsive containment, dock affordances and app controls. */
+
+/* The mobile drawer only exists once the dock menu is open on small screens. */
+.toy-drawer {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .toy-dock[data-open] .toy-drawer {
+    position: fixed;
+    left: 8px;
+    right: 8px;
+    bottom: calc(var(--dock-space) + 4px);
+    z-index: 95;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 62vh;
+    overflow: auto;
+    padding: 14px;
+    border: var(--stroke);
+    border-radius: var(--round-md);
+    background: var(--surface);
+    box-shadow: var(--drop);
+  }
+
+  .toy-drawer > a,
+  .toy-drawer summary {
+    padding: 8px 10px;
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    background: var(--surface-2);
+    color: var(--ink);
+    font-family: var(--face-display);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .toy-drawer summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .toy-drawer summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .toy-menu-mg {
+    padding: 8px 4px;
+  }
+
+  .toy-menu-h {
+    margin-bottom: 4px;
+    color: var(--ink-3);
+    font-family: var(--face-num);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .toy-menu-mi {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    color: var(--ink);
+    font-size: 0.86rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .toy-menu-mi:hover {
+    background: var(--sun-soft);
+  }
+
+  .toy-nav-tools .toy-btn {
+    display: none;
+  }
+
+  .toy-nav-tools .toy-menu-btn {
+    display: inline-grid;
+    place-items: center;
+    gap: 4px;
+    width: 38px;
+    height: 34px;
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    background: var(--surface);
+  }
+
+  .toy-nav-tools .toy-menu-btn i {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: var(--ink);
+  }
+}
+
+@media (min-width: 901px) {
+  .toy-nav-tools .toy-menu-btn {
+    display: none;
+  }
+}
+
+/* The dock stays inside the viewport: a two-row sticker bar on phones. */
+@media (max-width: 720px) {
+  .dock-bar {
+    padding: 6px 8px;
+  }
+
+  .dock-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .dock-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .dock-bar > .dock-track > .leaf-btn,
+  .dock-bar > .dock-track > .toy-btn {
+    min-height: 30px;
+  }
+}
+
+/* Documentation index: keep the chip rail inside its column. */
+.book-body {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.book-body > * {
+  min-width: 0;
+}
+
+.book-index {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.book-index-links {
+  max-width: 100%;
+}
+
+/* Agent manual: the table of contents must not stretch the split. */
+.bot-split {
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+}
+
+.bot-split > * {
+  min-width: 0;
+}
+
+.bot-index {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.bot-index-links {
+  max-width: 100%;
+}
+
+@media (max-width: 1040px) {
+  .bot-split {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .bot-index {
+    position: static;
+    max-width: 100%;
+  }
+
+  .bot-index-links {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+}
+
+/* Analytics: charts may scroll inside their panel, never the document. */
+.chart-grid,
+.chart-grid-2 {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.chart-slab,
+.chart-plot {
+  min-width: 0;
+}
+
+.chart-plot {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 760px) {
+  .chart-plot svg {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* The active app tab keeps the ink outline and a readable fill. */
+.pod-tabs > div.pod-tab-on {
+  background: var(--accent);
+  color: #fffdf6;
+  border-color: var(--ink);
+}
+
+.pod-tabs > div.pod-tab-off {
+  background: var(--surface-2);
+  color: var(--ink-2);
+}
+
+/* Not found: icon-only escape hatches keep the 404 page navigable. */
+.lost-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.lost-links a {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: var(--stroke);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--drop-s);
+}
+
+.lost-links a:hover {
+  background: var(--sun);
+  color: var(--ink);
+  transform: translate(-2px, -2px);
+}
+
+.lost-links svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* Product window: only the live dashboard frame is shown; the cyclic scene
+   frames stay in the DOM as the animation source, as they were before. */
+.toy-scenario {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .sweep-demo {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .leaf-pager {
+    justify-content: center;
+  }
+
+  .leaf-page-nums {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .chart-bar {
+    grid-template-columns: 72px minmax(0, 1fr) auto;
+  }
+}
+
+/* The home dock sits on one line; the page track padding must not leak in. */
+.dock-bar .toy-track.toy-nav-in {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dock-bar.toy-dock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dock-bar.pod-dock {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toy-intro {
+  min-height: min(78svh, 720px);
+}
+
+@media (max-width: 900px) {
+  .toy-dock .dock-links > a {
+    display: none;
+  }
+
+  .toy-dock .dock-links {
+    flex-wrap: nowrap;
+  }
+
+  .toy-dock .toy-nav-in {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 6px;
+  }
+}
+
+/* Product window: the shield flow is the visible scene, exactly as before. */
+.toy-scenario {
+  display: none;
+}
+
+.toy-scenario[data-scene="shield"] {
+  display: grid;
+  grid-column: 1 / -1;
+}
+
+.leaf-st span {
+  display: none;
+}
+
+.leaf-st .leaf-p {
+  display: inline;
+}
+
+/* Analytic charts: candy-striped legend and inked columns. */
+.chart-legend span:nth-child(1) i {
+  background: var(--accent);
+}
+
+/* Dock brand and the product-window log stay legible / out of the frame. */
+.dock-bar.toy-dock .toy-track .toy-brand {
+  color: var(--ink);
+}
+
+.toy-term {
+  display: none;
+}
+
+.toy-win-tag,
+.leaf-g1,
+.leaf-g2 {
+  display: none;
+}
+
+/* Long hashes, addresses and code tokens must wrap instead of widening pages. */
+p,
+li,
+td,
+th,
+a,
+code,
+pre {
+  overflow-wrap: break-word;
+}
+
+.leaf-bullets li,
+.leaf-entry-body p,
+.leaf-entry-body h2,
+.bot-doc p,
+.bot-doc li,
+.bot-doc td,
+.bot-doc th,
+.chart-table td,
+.chart-table th,
+.coin-addr code {
+  overflow-wrap: anywhere;
+}
+
+.bot-doc {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.chart-slab {
+  overflow-x: auto;
+}
+
+@media (max-width: 760px) {
+  .bot-doc table,
+  .chart-table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .bot-doc pre {
+    max-width: 100%;
+  }
+}
+
+.chart-legend span:nth-child(2) i {
+  background: var(--sun);
+}
+
+.chart-legend span:nth-child(3) i {
+  background: var(--mint);
+}
+
+.chart-legend span:nth-child(4) i {
+  background: var(--coral);
+}
+
+.chart-group rect {
+  stroke: var(--ink);
+  stroke-width: 0.75;
+}
+
+/* App pod: asset tabs, spacing above the floating dock and stream bits. */
+.cols-tab img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.cols-tab > div:first-child > div:nth-child(2) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.cols-tab > div:first-child > div:nth-child(2) > div {
+  cursor: pointer;
+}
+
+.cash-opt .coin-switch-on {
+  margin-inline-start: auto;
+}
+
+.pod-base {
+  margin-bottom: 6px;
+}
+
+.pod {
+  padding-bottom: calc(var(--dock-space) + 96px);
+}
+
+@media (max-width: 720px) {
+  .pod {
+    padding-block: 14px calc(var(--dock-space) + 120px);
+  }
+
+  .pod-main {
+    min-height: 0;
+  }
+}
+
+.leaf-type {
+  display: none;
+}
+
+
+.toy-field .leaf-type {
+  display: none;
+}
+
+/* Masthead stickers sit behind the first letter instead of over it. */
+.leaf-mast {
+  position: relative;
+}
+
+.leaf-mast h1 {
+  position: relative;
+  z-index: 2;
+}
+
+.is-static .leaf-mast::before,
+.is-sweep .leaf-mast::before,
+.is-log .leaf-mast::before {
+  z-index: 0;
+  top: -10px;
+  left: -26px;
+  width: 54px;
+  height: 54px;
+}
+
+/* Recovery console: one readable column, no empty second track. */
+.sweep-demo {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.sweep-tool {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.sweep-screen {
+  max-width: none;
+}
+
+.toy-foot .logo-mark {
+  color: var(--sun);
+}
+
+/* Headings that link to anchors stay ink, not link blue. */
+.bot-doc h2 a,
+.bot-doc h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bot-doc h2 a:hover,
+.bot-doc h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--sun);
+  text-decoration-thickness: 4px;
+}
+

@@ -1,0 +1,5 @@
+Live || span.leaf-live > div.toy-main-h > div.toy-main > div.toy-console > div.toy-stage > div.toy-window > div.toy-track
+Shielded notes || span. > div.toy-block > div.toy-blocks > div.toy-main > div.toy-console > div.toy-stage > div.toy-window
+Shielded notes over time || b. > div.leaf-ph > div.toy-board.toy-chart > div.toy-boards > div.toy-main > div.toy-console > div.toy-stage
+Shielding… || span.leaf-g1 > div.leaf-go > div.toy-slab > div.toy-win-grid.toy-scenario > div.toy-stage > div.toy-window > div.toy-track
+Shielded · +1.000 ETH private || span.leaf-g2 > div.leaf-go > div.toy-slab > div.toy-win-grid.toy-scenario > div.toy-stage > div.toy-window > div.toy-track

@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Agpool — media</title>
+<link rel="stylesheet" href="/xmedia/site.css" />
+<link rel="stylesheet" href="/xmedia/appview.css" />
+<style>
+  :root{
+    --bg:#0b0c0e; --s1:#0e0f11; --s2:#121316; --s3:#17181a;
+    --line:#1b1b1d; --line2:#232427;
+    --fg:#ebecec; --fg2:#c9cacc; --mut:#a4a5a5; --dim:#6e7074;
+    --green:#34c77b;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;width:1600px;height:900px;overflow:hidden;background:#0b0c0e}
+  body{font-family:Inter,-apple-system,system-ui,sans-serif;color:var(--fg);-webkit-font-smoothing:antialiased}
+  .stage{position:relative;width:1600px;height:900px;overflow:hidden;background:var(--bg)}
+  .stage::before{content:"";position:absolute;inset:-40% -10% auto -10%;height:160%;
+    background:radial-gradient(50% 55% at 50% 0%,rgba(255,255,255,.075),transparent 64%);pointer-events:none}
+  .zoom{position:absolute;inset:0;zoom:1.55}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:-.01em}
+
+  /* ---------- app page ---------- */
+  .nav{position:relative;z-index:6;height:60px;display:flex;align-items:center;justify-content:space-between;
+    padding:0 18px;border-bottom:1px solid var(--line);background:rgba(11,12,14,.72);backdrop-filter:blur(24px)}
+  .brand{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px;letter-spacing:.4px;color:#fff}
+  .brand img{width:24px;height:24px}
+  .navright{display:flex;align-items:center;gap:10px}
+  .chainbtn{display:flex;align-items:center;gap:7px;height:33px;padding:0 12px;border-radius:12px;
+    border:1px solid var(--line);background:var(--s3);color:var(--fg2);font-size:12px;
+    font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;text-transform:uppercase}
+  .chainbtn img{width:15px;height:15px}
+  .chainbtn svg{width:14px;height:14px;opacity:.7}
+  .walletbtn{display:flex;align-items:center;gap:6px;height:33px;padding:0 12px;border-radius:12px;
+    border:1px solid var(--line);background:var(--s3);color:var(--fg);font-size:12px;
+    font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  .walletbtn .dot{color:var(--green);font-size:11px}
+  .connect-sm{display:flex;align-items:center;gap:6px;height:33px;padding:0 13px;border-radius:12px;
+    background:var(--fg);color:#0b0c0e;font-size:11.5px;font-weight:600}
+
+  .appmain{position:absolute;left:0;right:0;top:60px;bottom:0;display:flex;justify-content:center;align-items:center}
+  .cardwrap{position:relative}
+  .card{width:410px;min-width:0;padding:1.35rem 1.4rem .9rem;background:#0e0f11;
+    border-radius:16px;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .xtabs{position:absolute;top:-38px;left:0;display:flex;gap:5px;padding-left:18px;align-items:flex-end}
+  .tabon{padding:9px 18px;border-radius:12px;background:var(--fg);color:#0b0c0e;font-size:12px;font-weight:600}
+  .taboff{padding:9px 18px;border-radius:12px;color:var(--mut);font-size:12px}
+  .stack{position:relative;display:flex;flex-direction:column;gap:18px}
+  .assetrow{display:flex;align-items:center;gap:8px}
+  .assetrow .lbl{font-size:10.5px;color:var(--mut);font-family:ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.04em}
+  .assetswitch{display:inline-flex;gap:3px;background:var(--s3);border:1px solid var(--line);border-radius:12px;padding:3px}
+  .asset{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border-radius:9px;font-size:11.5px;color:var(--mut)}
+  .asset img{width:15px;height:15px;border-radius:8px}
+  .asset.on{background:var(--s1);color:var(--fg);border:1px solid var(--line)}
+  .balrow{display:flex;justify-content:space-between;align-items:center;margin-top:-6px;font-size:11.5px;color:var(--mut)}
+  .balrow b{color:var(--fg2);font-weight:500}
+  .amount_box{padding:10px 14px 8px;border-radius:14px}
+  .amount_box_input{font-size:30px;font-weight:500;color:var(--fg);width:100%}
+  .amount_box_conv_txt{font-size:11px}
+  .recipient{width:100%;height:44px;display:flex;align-items:center;padding:0 16px;border-radius:12px;
+    background:var(--s3);border:1px solid var(--line);font-size:14px;color:var(--fg2);
+    font-family:ui-monospace,Menlo,monospace}
+  .recipient .ph{color:#5f6266}
+  .primary{width:100%;height:46px;display:flex;align-items:center;justify-content:center;gap:8px;
+    border-radius:12px;background:var(--fg);color:#0b0c0e;font-size:13px;font-weight:600}
+  .primary svg{width:17px;height:17px}
+
+  /* ---------- overlays ---------- */
+  .overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(4,5,7,.52);backdrop-filter:blur(2px);opacity:0;z-index:8}
+  .sheet{width:400px;border-radius:14px;background:#10141f;border:1px solid rgba(168,85,247,.16);
+    box-shadow:0 24px 70px rgba(0,0,0,.7);padding:20px 20px 16px}
+  .sheet h3{margin:0 0 6px;font-size:19px;font-weight:600;letter-spacing:-.01em;color:#fff}
+  .sheet p{margin:0 0 14px;font-size:12.5px;line-height:1.55;color:var(--mut)}
+  .steps{display:flex;flex-direction:column;gap:11px;margin:16px 0 4px}
+  .step{display:flex;gap:10px;align-items:center;font-size:12.5px;color:#6e7074}
+  .step.done{color:var(--fg2)}
+  .step.active{color:#dfe6f3}
+  .sdot{width:16px;height:16px;border-radius:50%;border:1px solid #2a2b2f;display:flex;align-items:center;justify-content:center;flex:none;font-size:9px}
+  .step.done .sdot{background:rgba(52,199,123,.12);border-color:rgba(52,199,123,.4);color:var(--green)}
+  .step.active .sdot{border-color:#5b8def;color:#5b8def}
+  .prog{height:4px;border-radius:2px;background:#1b1b1d;overflow:hidden;margin:16px 0 4px}
+  .prog i{display:block;height:100%;border-radius:2px;background:linear-gradient(90deg,#5b8def,#8f7bf2)}
+  .btnrow{display:flex;gap:8px;margin-top:14px}
+  .go{flex:1;height:44px;display:flex;align-items:center;justify-content:center;border-radius:12px;
+    background:var(--fg);color:#0b0c0e;font-size:13px;font-weight:600}
+  .alt{width:96px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:12px;
+    border:1px solid var(--line);color:var(--fg2);font-size:13px}
+  .note{display:flex;align-items:center;gap:8px;font-size:12px;color:#dfe6f3;margin:0 0 2px}
+  .spin{width:12px;height:12px;border:1.6px solid rgba(255,255,255,.25);border-top-color:#fff;border-radius:50%;display:inline-block}
+  .success{display:flex;gap:10px;padding:12px;border-radius:10px;background:rgba(52,199,123,.07);
+    border:1px solid rgba(52,199,123,.22);color:#bfe9cf;font-size:12.5px;line-height:1.5}
+  .success svg{flex:none;margin-top:2px;color:var(--green)}
+  .hash{margin-top:6px;font-size:10.5px;color:#6e7074;font-family:ui-monospace,Menlo,monospace}
+
+  /* ---------- ledger ---------- */
+  .ledger{position:relative;width:760px;border-radius:18px;background:var(--s1);border:1px solid var(--line2);
+    overflow:hidden;display:flex;flex-direction:column}
+  .ledger .lhead{display:flex;align-items:center;justify-content:space-between;padding:20px 28px;border-bottom:1px solid var(--line)}
+  .ledger .ltitle{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);font-family:ui-monospace,Menlo,monospace}
+  .ledger .ltitle i{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px rgba(52,199,123,.7)}
+  .ledger .lmeta{font-size:13px;color:var(--dim);font-family:ui-monospace,Menlo,monospace}
+  .ledger .lbody{padding:8px 28px 14px;flex:1}
+  .lrow{display:grid;grid-template-columns:210px 1fr;align-items:center;gap:16px;padding:15px 4px;border-bottom:1px solid #15161a;position:relative}
+  .lrow:last-child{border-bottom:0}
+  .lrow dt{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6e7074;font-family:ui-monospace,Menlo,monospace}
+  .lrow dd{margin:0;font-size:21px;color:var(--fg);font-family:ui-monospace,Menlo,monospace}
+  .lrow dd .sub{color:var(--dim);font-size:14px;margin-left:9px}
+  .lrow.hot dd{color:#fff}
+  .lrow.hot::before{content:"";position:absolute;left:-26px;top:6px;bottom:6px;width:2px;background:var(--green)}
+  .stamp{display:inline-flex;align-items:center;gap:7px;color:var(--green);font-size:12px;font-family:ui-monospace,Menlo,monospace}
+  .stamp i{width:6px;height:6px;border-radius:50%;background:var(--green)}
+  .callout{position:absolute;right:26px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:8px;padding:7px 11px;border-radius:999px;
+    background:rgba(52,199,123,.1);border:1px solid rgba(52,199,123,.45);color:#8fe3b4;font-size:11.5px;
+    font-family:ui-monospace,Menlo,monospace;letter-spacing:.02em;white-space:nowrap}
+  .callout::before{content:"";width:16px;height:1px;background:rgba(52,199,123,.65);margin-right:2px}
+
+  /* ---------- split scene ---------- */
+  .split{position:absolute;inset:0;display:flex;justify-content:center;align-items:flex-start;gap:64px;padding-top:188px}
+  .split::before{content:"";position:absolute;left:50%;top:170px;bottom:170px;width:1px;
+    background:linear-gradient(transparent,#232427 22%,#232427 78%,transparent)}
+  #rowFrom2 .sub{display:none}
+  .panel{position:relative;width:600px;height:470px}
+  .panel .ledger{width:100%;height:100%}
+  .papertag{position:absolute;top:-34px;left:2px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6e7074;font-family:ui-monospace,Menlo,monospace}
+  .appshot{height:100%;border-radius:18px;background:var(--s1);border:1px solid var(--line2);
+    padding:24px 26px 18px;display:flex;flex-direction:column}
+  .appshot .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+  .appshot .top .t{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-family:ui-monospace,Menlo,monospace}
+  .appshot .top .chain{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--mut);font-family:ui-monospace,Menlo,monospace;text-transform:uppercase}
+  .appshot .top .chain img{width:14px;height:14px}
+  .bigsuccess{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6px 0}
+  .check{width:54px;height:54px;border-radius:50%;background:rgba(52,199,123,.1);border:1px solid rgba(52,199,123,.45);
+    display:flex;align-items:center;justify-content:center;color:var(--green);margin-bottom:16px}
+  .bigsuccess h3{margin:0 0 6px;font-size:21px;font-weight:600;letter-spacing:-.01em;color:#fff}
+  .bigsuccess p{margin:0;font-size:13px;color:var(--mut);line-height:1.5}
+  .bigsuccess .amt{font-size:26px;font-weight:600;color:#fff;margin:14px 0 2px;letter-spacing:-.02em}
+  .kv{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-top:1px solid #17181a;font-size:12px;color:var(--dim);font-family:ui-monospace,Menlo,monospace}
+  .kv b{color:var(--fg2);font-weight:400}
+  .kv:last-of-type{border-bottom:1px solid #17181a}
+
+  /* ---------- three scene ---------- */
+  .three{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px}
+  .row3{display:flex;gap:22px}
+  .p3{position:relative;width:474px;height:540px;border-radius:18px;background:var(--s1);border:1px solid var(--line2);
+    padding:26px 26px 22px;overflow:hidden}
+  .p3 .num{font-size:11px;letter-spacing:.16em;color:#6e7074;font-family:ui-monospace,Menlo,monospace}
+  .p3 .cap{position:absolute;left:26px;bottom:22px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#5f6266;font-family:ui-monospace,Menlo,monospace}
+  .p3 .body{position:absolute;left:26px;right:26px;top:50%;transform:translateY(-52%)}
+  .bigline{margin:0 0 4px;font-size:23px;font-weight:600;letter-spacing:-.02em;color:#fff;line-height:1.2}
+  .subl{font-size:12.5px;color:var(--mut);line-height:1.55;margin:10px 0 0}
+  .mini{display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 12px;border-radius:10px;
+    background:var(--s3);border:1px solid var(--line);font-size:11.5px;color:var(--fg2);font-family:ui-monospace,Menlo,monospace}
+  .mini .dot{color:var(--green)}
+  .miniamt{margin-top:22px;border-radius:14px;background:var(--s3);border:1px solid var(--line);padding:14px 16px}
+  .miniamt .v{font-size:30px;font-weight:600;color:#fff;letter-spacing:-.02em}
+  .miniamt .u{font-size:12px;color:var(--dim);font-family:ui-monospace,Menlo,monospace;margin-top:4px}
+  .steps3{margin-top:20px;display:flex;flex-direction:column;gap:12px}
+  .step3{display:flex;align-items:center;gap:10px;font-size:12.5px;color:#6e7074;font-family:ui-monospace,Menlo,monospace}
+  .step3.done{color:var(--fg2)}
+  .step3.active{color:#dfe6f3}
+  .step3 .sdot{width:16px;height:16px;border-radius:50%;border:1px solid #2a2b2f;display:flex;align-items:center;justify-content:center;font-size:9px}
+  .step3.done .sdot{background:rgba(52,199,123,.12);border-color:rgba(52,199,123,.4);color:var(--green)}
+  .step3.active .sdot{border-color:#5b8def;color:#5b8def}
+  .foot3{font-size:12px;letter-spacing:.28em;text-transform:lowercase;color:#5f6266;font-family:ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+
+  <!-- ============ app page ============ -->
+  <div class="zoom" id="appzoom">
+    <div class="nav">
+      <div class="brand"><img src="/mark.svg" alt="" /><span>Agpool</span></div>
+      <div class="navright">
+        <div class="chainbtn"><img src="/token_logos/robinhood.png" alt="" /><span>Robinhood</span>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.7 14.7a1 1 0 01-1.4 0l-5-5a1 1 0 011.4-1.4L12 12.6l4.3-4.3a1 1 0 011.4 1.4l-5 5z"/></svg>
+        </div>
+        <div class="connect-sm" id="navConnect">Connect Wallet</div>
+        <div class="walletbtn" id="navWallet" style="display:none"><span class="dot">●</span><span>0x7c4e…91b2</span></div>
+      </div>
+    </div>
+
+    <div class="appmain">
+      <div class="cardwrap">
+        <div class="xtabs">
+          <div class="tabon">Send Privately</div>
+          <div class="taboff">Swap</div>
+          <div class="taboff">Private bridge</div>
+        </div>
+        <div class="card">
+
+          <div class="stack" id="cardA">
+            <div class="assetrow">
+              <span class="lbl">Private asset:</span>
+              <div class="assetswitch">
+                <div class="asset on"><img src="/token_logos/eth.png" alt="" /><span>ETH</span></div>
+                <div class="asset"><img src="/token_logos/usdg.png" alt="" /><span>USDG</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="balrow"><span>Connect wallet to see your private balance</span></div>
+              <div style="height:10px"></div>
+              <div class="amount_box">
+                <div style="display:flex;justify-content:space-between;align-items:center">
+                  <div style="font-size:9.5px;letter-spacing:.1em;color:#6e7074;font-family:ui-monospace,Menlo,monospace">MAX</div>
+                  <div class="asset on" style="padding:4px 8px"><img src="/token_logos/eth.png" alt="" style="width:15px;height:15px" /><span>ETH</span></div>
+                </div>
+                <div class="amount_box_input">0.00</div>
+                <div class="amount_box_conv_txt" style="color:#6e7074">$0</div>
+              </div>
+            </div>
+            <div class="recipient"><span class="ph">Recipient address</span></div>
+            <div class="primary">
+              <svg viewBox="0 0 36 36" fill="currentColor"><path d="M32,15H31V9a1,1,0,0,0-1-1H6a1,1,0,0,1-1-.82V6.82A1,1,0,0,1,6,6H29.58a1,1,0,0,0,0-2H6A3,3,0,0,0,3,7a3.08,3.08,0,0,0,0,.36V27.93A4.1,4.1,0,0,0,7.13,32H30a1,1,0,0,0,1-1V25h1a1,1,0,0,0,1-1V16A1,1,0,0,0,32,15ZM29,30H7.13A2.11,2.11,0,0,1,5,27.93V9.88A3.11,3.11,0,0,0,6,10H29v5H22a5,5,0,0,0,0,10h7Zm2-7H22a3,3,0,0,1,0-6H31Z"/></svg>
+              <span>Connect Wallet</span>
+            </div>
+          </div>
+
+          <div class="stack" id="cardB" style="display:none">
+            <div class="assetrow">
+              <span class="lbl">Private asset:</span>
+              <div class="assetswitch">
+                <div class="asset on"><img src="/token_logos/eth.png" alt="" /><span>ETH</span></div>
+                <div class="asset"><img src="/token_logos/usdg.png" alt="" /><span>USDG</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="balrow"><span>Private: <b>3.232 ETH</b> (12 UTXOs)</span><span style="font-size:10px">Robinhood Chain</span></div>
+              <div style="height:10px"></div>
+              <div class="amount_box">
+                <div style="display:flex;justify-content:space-between;align-items:center">
+                  <div style="font-size:9.5px;letter-spacing:.1em;color:#6e7074;font-family:ui-monospace,Menlo,monospace">MAX</div>
+                  <div class="asset on" style="padding:4px 8px"><img src="/token_logos/eth.png" alt="" style="width:15px;height:15px" /><span>ETH</span></div>
+                </div>
+                <div class="amount_box_input">0.05</div>
+                <div class="amount_box_conv_txt" style="color:#6e7074">$161.20</div>
+              </div>
+            </div>
+            <div class="recipient"><span>0x91c2…7f4a</span></div>
+            <div class="primary"><span>Send privately</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- sign sheet -->
+    <div class="overlay" id="ovSign">
+      <div class="sheet">
+        <h3>Sign once</h3>
+        <p>This signature derives your private account — the same address on every chain. It is not a transaction and costs no gas.</p>
+        <div class="steps">
+          <div class="step done"><span class="sdot">✓</span>Wallet connected</div>
+          <div class="step active"><span class="sdot">●</span>Waiting for signature…</div>
+        </div>
+        <div class="btnrow"><div class="go">Sign</div><div class="alt">Cancel</div></div>
+      </div>
+    </div>
+
+    <!-- shield sheet -->
+    <div class="overlay" id="ovShield">
+      <div class="sheet">
+        <h3>Shield 0.05 ETH</h3>
+        <p>Deposit into the Robinhood Chain pool. The amount is encrypted; the commitment joins the tree.</p>
+        <div class="steps">
+          <div class="step done"><span class="sdot">✓</span>Approve</div>
+          <div class="step done"><span class="sdot">✓</span>Encrypt</div>
+          <div class="step active"><span class="sdot">●</span>Commit</div>
+          <div class="step"><span class="sdot"></span>Confirm</div>
+        </div>
+        <div class="prog"><i style="width:72%"></i></div>
+        <div class="note"><span class="spin"></span>Generating proof on this device…</div>
+      </div>
+    </div>
+
+    <!-- confirm sheet -->
+    <div class="overlay" id="ovDone">
+      <div class="sheet">
+        <h3>Private send confirmed</h3>
+        <div class="success">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          <div><div>0.05 ETH sent privately to 0x91c2…7f4a.</div><div class="hash">0.049675 ETH received · fee 0.000325 ETH · tx 0x4f2a…9c1e</div></div>
+        </div>
+        <div class="btnrow"><div class="go">Done</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ ledger ============ -->
+  <div id="ledgerWrap" style="position:absolute;inset:0;display:none;align-items:center;justify-content:center;z-index:9;background:rgba(4,5,7,.58);backdrop-filter:blur(2px)">
+    <div class="ledger" id="ledger" style="width:880px">
+      <div class="lhead">
+        <div class="ltitle"><i></i>Public ledger · Robinhood Chain</div>
+        <div class="lmeta">block 110,786,913</div>
+      </div>
+      <div class="lbody">
+        <div class="lrow"><dt>Transaction</dt><dd>0x4f2a…9c1e <span class="sub">private spend</span></dd></div>
+        <div class="lrow"><dt>Status</dt><dd><span class="stamp"><i></i>Success</span></dd></div>
+        <div class="lrow hot" id="rowFrom"><dt>From</dt><dd>0x7a3f…c92d <span class="sub">Agpool pool</span></dd></div>
+        <div class="lrow hot" id="rowTo"><dt>To</dt><dd>0x91c2…7f4a <span class="sub">recipient</span></dd></div>
+        <div class="lrow"><dt>Value</dt><dd>0.049675 ETH</dd></div>
+        <div class="lrow"><dt>Agpool fee</dt><dd>0.000325 ETH</dd></div>
+        <div class="lrow"><dt>Gas</dt><dd>paid by relayer</dd></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ split scene (04) ============ -->
+  <div id="splitScene" style="display:none">
+    <div class="split">
+      <div class="panel">
+        <div class="papertag">Agpool · private send</div>
+        <div class="appshot">
+          <div class="top">
+            <div class="t">Send privately</div>
+            <div class="chain"><img src="/token_logos/robinhood.png" alt="" />Robinhood Chain</div>
+          </div>
+          <div class="bigsuccess">
+            <div class="check"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <h3>Private send confirmed</h3>
+            <div class="amt">0.05 ETH</div>
+            <p>to 0x91c2…7f4a</p>
+          </div>
+          <div class="kv"><span>received</span><b>0.049675 ETH</b></div>
+          <div class="kv"><span>fee</span><b>0.000325 ETH, from the amount</b></div>
+          <div class="kv"><span>tx</span><b>0x4f2a…9c1e</b></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="papertag">Public ledger · same payment</div>
+        <div class="ledger">
+          <div class="lhead">
+            <div class="ltitle"><i></i>Robinhood Chain</div>
+            <div class="lmeta">0x4f2a…9c1e</div>
+          </div>
+          <div class="lbody">
+            <div class="lrow"><dt>Status</dt><dd><span class="stamp"><i></i>Success</span></dd></div>
+            <div class="lrow hot" id="rowFrom2"><dt>From</dt><dd>0x7a3f…c92d <span class="sub">Agpool pool</span></dd>
+              <div class="callout">from: pool</div>
+            </div>
+            <div class="lrow hot"><dt>To</dt><dd>0x91c2…7f4a</dd></div>
+            <div class="lrow"><dt>Value</dt><dd>0.049675 ETH</dd></div>
+            <div class="lrow"><dt>Agpool fee</dt><dd>0.000325 ETH</dd></div>
+            <div class="lrow"><dt>Gas</dt><dd>paid by relayer</dd></div>
+            <div class="lrow"><dt>Block</dt><dd>110,786,913</dd></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ three scene (07) ============ -->
+  <div id="threeScene" style="display:none">
+    <div class="three">
+      <div class="row3">
+        <div class="p3">
+          <div class="num">01</div>
+          <div class="body">
+            <div class="mini"><span class="dot">●</span>0x7c4e…91b2</div>
+            <p class="bigline" style="margin-top:22px">Wallet connected</p>
+            <p class="subl">One signature derives the private account. The same address on every chain.</p>
+          </div>
+          <div class="cap">connect</div>
+        </div>
+        <div class="p3">
+          <div class="num">02</div>
+          <div class="body">
+            <div class="miniamt"><div class="v">0.05 ETH</div><div class="u">shielded · Robinhood Chain</div></div>
+            <div class="steps3">
+              <div class="step3 done"><span class="sdot">✓</span>Approve</div>
+              <div class="step3 done"><span class="sdot">✓</span>Encrypt</div>
+              <div class="step3 active"><span class="sdot">●</span>Commit</div>
+            </div>
+          </div>
+          <div class="cap">shield</div>
+        </div>
+        <div class="p3">
+          <div class="num">03</div>
+          <div class="body">
+            <div class="check" style="width:44px;height:44px;margin-bottom:14px"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <p class="bigline">Private send confirmed</p>
+            <p class="subl">0.05 ETH moved to 0x91c2…7f4a. Fee 0.000325 ETH, from the amount.</p>
+          </div>
+          <div class="cap">send</div>
+        </div>
+      </div>
+      <div class="foot3">sign · shield · send</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const p = new URLSearchParams(location.search);
+  const scene = p.get('scene') || 'loop';
+  const t = parseFloat(p.get('t') || '0');
+  const $ = (id) => document.getElementById(id);
+
+  const clamp = (v) => Math.min(1, Math.max(0, v));
+  function vis(a, b, f = 0.18) {
+    return clamp((t - (a - f)) / f) * clamp((b - t) / f);
+  }
+  function set(id, fn) { const el = $(id); if (el) fn(el); }
+
+  function reset() {
+    document.querySelectorAll('.overlay').forEach((el) => { el.style.opacity = 0; el.style.display = 'none'; });
+    $('ledgerWrap').style.display = 'none';
+    $('splitScene').style.display = 'none';
+    $('threeScene').style.display = 'none';
+    $('appzoom').style.display = 'block';
+    set('cardA', (el) => { el.style.display = 'flex'; el.style.opacity = 1; });
+    set('cardB', (el) => { el.style.display = 'none'; el.style.opacity = 1; });
+  }
+
+  function showScene(name) {
+    reset();
+    $('appzoom').style.display = name === 'loop' ? 'block' : 'none';
+    if (name === 'split') $('splitScene').style.display = 'block';
+    if (name === 'three') $('threeScene').style.display = 'block';
+  }
+
+  function wallet(connected) {
+    $('navConnect').style.display = connected ? 'none' : 'flex';
+    $('navWallet').style.display = connected ? 'flex' : 'none';
+  }
+
+  function card(state) {
+    $('cardA').style.display = state === 'a' ? 'flex' : 'none';
+    $('cardB').style.display = state === 'b' ? 'flex' : 'none';
+    wallet(state === 'b');
+  }
+
+  if (scene === 'loop') {
+    showScene('loop');
+    const sign = vis(1.30, 2.30);
+    const shield = vis(2.30, 3.75);
+    const done = vis(4.55, 6.05);
+    const ledger = vis(6.05, 7.55);
+
+    card(t >= 1.35 ? 'b' : 'a');
+    if (sign > 0) { const el = $('ovSign'); el.style.display = 'flex'; el.style.opacity = sign; }
+    if (shield > 0) { const el = $('ovShield'); el.style.display = 'flex'; el.style.opacity = shield; }
+    if (done > 0) { const el = $('ovDone'); el.style.display = 'flex'; el.style.opacity = done; }
+    if (ledger > 0) {
+      $('ledgerWrap').style.display = 'flex';
+      $('ledgerWrap').style.opacity = ledger;
+      $('ledger').style.transform = `translateY(${(1 - ledger) * 14}px)`;
+    }
+  } else if (scene === 'split') {
+    showScene('split');
+  } else if (scene === 'three') {
+    showScene('three');
+  }
+</script>
+</body>
+</html>

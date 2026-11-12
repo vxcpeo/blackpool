@@ -1,0 +1,2333 @@
+{
+  "schemaVersion": 1,
+  "project": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website",
+  "generatedAt": "2026-11-11T23:13:48+08:00",
+  "git": {
+    "isGit": false
+  },
+  "packageManager": {
+    "name": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "stats": {
+    "files": 90,
+    "textFiles": 75,
+    "imageFiles": 15
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "kind": "text",
+      "size": 42,
+      "hash": "d4eb4b2a58d28b9568507d05a125c520fa48604046472340d390f08861168095",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "README.md",
+      "kind": "text",
+      "size": 4743,
+      "hash": "15c4ea1ef7fd8f17d9fc342c9a0121e529d4cc4995ad4d7ddfa8a85f8f8ff287",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "index.html",
+      "kind": "text",
+      "size": 4152,
+      "hash": "56049f446682c46d4501e35a653777ba35ed286c6020bd9d0154dbdd0266d7bc",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 29
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 29
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "package.json",
+      "kind": "text",
+      "size": 448,
+      "hash": "60a80b9ab7160eb2a85decd541520b436803934d5dc6bd7dc091a2bf3337235e",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "vite.config.js",
+      "kind": "text",
+      "size": 385,
+      "hash": "00f6cdba97945d4982565a58295d449ab0c90901a8fd7f995f190004bf3b44de",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "public/AGENTS.md",
+      "kind": "text",
+      "size": 27389,
+      "hash": "5838b3f62a0f68f4c1b13bebd0bdee91264e6add981d2660796751dca4565bcd",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 145
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 145
+        }
+      ],
+      "protectedHits": [
+        "https://api.blackpool.cash`",
+        "https://api.blackpool.cash/api/health",
+        "https://api.blackpool.cash"
+      ]
+    },
+    {
+      "path": "public/favicon.svg",
+      "kind": "text",
+      "size": 295,
+      "hash": "ed51d63babd7ee6992bbfd44ded93416e84d7e7bca067bc58c2d97ecca935f07",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "public/mark.svg",
+      "kind": "text",
+      "size": 8330,
+      "hash": "7f6c19434e6eb266f634c8b31a405bd31d922262379ee05b41a007f4f65eaf81",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/App.vue",
+      "kind": "text",
+      "size": 283,
+      "hash": "7b6e8889e08fc521d5b2d7d4fda645a0777d872f8f71798f563cb0326f5ce20f",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/main.js",
+      "kind": "text",
+      "size": 219,
+      "hash": "c9ef63835afa19ffc653a1ff67caa4c599db4928537a81609a11b6088e050006",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/AgentsSection.vue",
+      "kind": "text",
+      "size": 1993,
+      "hash": "05ca42a12d52f7d5bf895826987781afada3bdb272ddc02c947da56507702b60",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 12
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 12
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/BentoSection.vue",
+      "kind": "text",
+      "size": 4018,
+      "hash": "fb523fc4132f96f9c9fd18acfe99bf231248088740a3791a1ac1d87b173097b7",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/BrandMark.vue",
+      "kind": "text",
+      "size": 8571,
+      "hash": "c13ee95b377fe2742d3571b6f3a831a7b56f0a2926d254e7ebc5fa7f8a3d9b52",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/ChangelogToast.vue",
+      "kind": "text",
+      "size": 694,
+      "hash": "c007fec27e6090aaf80116eb8a39528caa3e113f49c5811eca75aa344ad06d1e",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/CtaSection.vue",
+      "kind": "text",
+      "size": 360,
+      "hash": "64cc80caab05430f8d032e65d0276f54b4bf1f20210c1c22e78dbc9e5fc23a70",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/FaqSection.vue",
+      "kind": "text",
+      "size": 2301,
+      "hash": "981415afc57324dc5aad66aaa948d5183d607432d72ccfb3815a10340bd2bd6c",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/HeroSection.vue",
+      "kind": "text",
+      "size": 2784,
+      "hash": "c343a643ad1b416b2c9ac360386ee0f845cab63322464559c4f1ee6b6fca2b70",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/NavIcon.vue",
+      "kind": "text",
+      "size": 2109,
+      "hash": "397208975e79969f0aaf6c21ea97be1a07cf71088ca6b488588662fa2a3a67b6",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/PrinciplesSection.vue",
+      "kind": "text",
+      "size": 1903,
+      "hash": "9cc512f21e4725af69b645263a4c5e2ff21e79d8d0c7d6a62d598eeb8bc57bad",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/ProductWindow.vue",
+      "kind": "text",
+      "size": 32270,
+      "hash": "0e3d56f0e55952ddcdda61f0ea3664abfa7b23b4fc69cd33fb3798a4bc3cb056",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/RaysBackground.vue",
+      "kind": "text",
+      "size": 5828,
+      "hash": "1afffd9ae41877f43da8409c364404310290a893519561c6d317071047648b56",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/SiteFooter.vue",
+      "kind": "text",
+      "size": 11399,
+      "hash": "ed32a3eff6a6f521b7e171e1e8f573435e762353361d8fd579b9b950c3a60190",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 14
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 14
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/SiteNav.vue",
+      "kind": "text",
+      "size": 4636,
+      "hash": "94fa040d82c7c47db994273c304ad36a5cd24bbfcc804c4c4b06a8023c739969",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/SiteNotice.vue",
+      "kind": "text",
+      "size": 1607,
+      "hash": "51a511f16721c6ed7b424aab814c1acf7232ed4f548d7acdc61fd4647954b68e",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/UseCasesSection.vue",
+      "kind": "text",
+      "size": 3763,
+      "hash": "4787119d240d03e76a3ac6cffb6da9679cd06c37a16b5402c759a9bd4f4be067",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/WordmarkCanvas.vue",
+      "kind": "text",
+      "size": 6007,
+      "hash": "02f697934727406537f8702ba64f51c0816acc443358942c7fe9bfc32dc3be47",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 3
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 3
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/app/AccountMenu.vue",
+      "kind": "text",
+      "size": 5444,
+      "hash": "98cabe4631d9170687c7096230f21411749099240e1bb079bac79e87cdfcba6a",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/app/ActionModal.vue",
+      "kind": "text",
+      "size": 2626,
+      "hash": "10ffa3783a123ab312fcd85c25e0aba377e8dcdf555fa260ff88c720e3d8d271",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/app/AppFooter.vue",
+      "kind": "text",
+      "size": 3518,
+      "hash": "dfb72a6bfa61a114b4ddd9bafc531e276707e8466c5bcdeb69e8fa4d35730704",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/app/ConnectModal.vue",
+      "kind": "text",
+      "size": 3226,
+      "hash": "969285630ee315b1bd5fc6e235b9f67f341d11e3b0fbd8a46d495ad6aa9f35cc",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/components/app/TopUpModal.vue",
+      "kind": "text",
+      "size": 5357,
+      "hash": "9a101d8c2ae5ff54b33cdb6f28140ed4e9ca8200e10619287aa790b7f5986538",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useBalances.js",
+      "kind": "text",
+      "size": 4774,
+      "hash": "9436c97df69114ecddb4ced18762110dabc6502c637e06405a404aa8508e2d4b",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useChangelog.js",
+      "kind": "text",
+      "size": 3617,
+      "hash": "a7043552b0ae6c1383a6cab1a042ea1ee03d362da8ddb9a2ebed73efbb80ae90",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useCopyControls.js",
+      "kind": "text",
+      "size": 2628,
+      "hash": "c7d216a478b3603e329f5ac80e3d97dcfbabd805c3de529d7dcd796329a50fa6",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useLandingEffects.js",
+      "kind": "text",
+      "size": 2902,
+      "hash": "8cf298ce5d7f2983b6d7d4cc57f17efe0dbc7913f007b685b3de9a904ef05a98",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useLinkInterception.js",
+      "kind": "text",
+      "size": 1439,
+      "hash": "bab64b80d92ad4d4479e60940d2460e0be7f7f55337fcd83ba8f3947845a37b6",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/usePriceFeed.js",
+      "kind": "text",
+      "size": 3148,
+      "hash": "f118d49a3e765cad6bc22e69c544ed022de2707111219e2475a530fa0c7aa228",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 3
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 3
+        }
+      ],
+      "protectedHits": [
+        "https://api.blackpool.cash/api/price?symbols=ETH,SOL",
+        "https://api.blackpool.cash"
+      ]
+    },
+    {
+      "path": "src/composables/usePrivateAccount.js",
+      "kind": "text",
+      "size": 4741,
+      "hash": "19bfb54935cbc11be3018a2fff29724ee4e320f419abac09be638066f48facf1",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useStatusRefresh.js",
+      "kind": "text",
+      "size": 1236,
+      "hash": "8c1f05d9edd83e6943cfca36c6633ac49a027dc48a60ddbe7f4b17a276429ca9",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/composables/useWallet.js",
+      "kind": "text",
+      "size": 9933,
+      "hash": "c1740cc653ea9efcbe84b75fde72d76de63a621f22f2173d60b85d5ab5472064",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 6
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/data/agentPrompt.js",
+      "kind": "text",
+      "size": 946,
+      "hash": "ca013d282137724db01c0ee47724335764bc03bb9e010b7270bce698881c54b3",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 11
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 11
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/data/chains.js",
+      "kind": "text",
+      "size": 3792,
+      "hash": "dd9233613a5e6d0bd0a9cba6b79654e446ad46c612001bd6ecd70912b1c4b519",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 1
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/data/nav.js",
+      "kind": "text",
+      "size": 2812,
+      "hash": "4d2e0cb54b2b00868ea88401a9cc7b903a78f75a6d1f92c382f5ae1923d0c665",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/router/index.js",
+      "kind": "text",
+      "size": 8160,
+      "hash": "bac92c35d67925d70b1efc8f6a2dad71eff7999be94d7923e603ff4ca64f7cca",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 32
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 32
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/app.css",
+      "kind": "text",
+      "size": 8137,
+      "hash": "12326916228dbc9c10e8a9c93c6c3967ece359e49a1d4a5bddc389bc2580ab8a",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/base.css",
+      "kind": "text",
+      "size": 22651,
+      "hash": "aa075f768db305ecf08acd240094786052f9a25fc6fbcc44b5aff112175bf141",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/landing.css",
+      "kind": "text",
+      "size": 68211,
+      "hash": "d24a8cf793d9ba42ac07848e3ced1b7d9c2fb4522635434f7267b9103ac5445b",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/notice.css",
+      "kind": "text",
+      "size": 2023,
+      "hash": "18aec669c50e943602e14285e72e30f87ffa32985f7cf91a484d9e25e8a7497f",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/agents.css",
+      "kind": "text",
+      "size": 4229,
+      "hash": "66d8eb2641b2be3466bdc23aadf05e73ce114bca62a8a083c0f0ece55647d307",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/analytics.css",
+      "kind": "text",
+      "size": 5437,
+      "hash": "3b5d8f3b301e7d73de66b1f327b19be91382ecc63fae03a7488c156198a3bace",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/content.css",
+      "kind": "text",
+      "size": 14742,
+      "hash": "b3bb89ea24d1bbab8936a574543d5c70b612776089493e493d6411d56dc1dd66",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/docs.css",
+      "kind": "text",
+      "size": 5513,
+      "hash": "a7263dd5e9bd5271a92734e1c62c0cbf451292b8cf8f2e855923f4a9fdf43f48",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/recover.css",
+      "kind": "text",
+      "size": 2004,
+      "hash": "140b0fee5624e951de8f6fe5a5dba154ee3bafbe285ef0d5ade2968ae181d90e",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/static-page.css",
+      "kind": "text",
+      "size": 3069,
+      "hash": "a3eccefcb14610c75401bc4e831379c714714fb470067b471246029fc4812cb2",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/styles/content/token.css",
+      "kind": "text",
+      "size": 920,
+      "hash": "dbfc4e612748643373afc038ff40977b74f0960b128d95501270df3fbb07aa0e",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/utils/format.js",
+      "kind": "text",
+      "size": 1968,
+      "hash": "c83c12930e1c64b970c7da08c580b20fbb7eabd4e24e77652d2b905ea6a23539",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/HomeView.vue",
+      "kind": "text",
+      "size": 1284,
+      "hash": "f65525b9faebac5b59be53c9d9dcefba4969d996bcea76efcb8624f18bc148d2",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/NotFoundView.vue",
+      "kind": "text",
+      "size": 1373,
+      "hash": "ac047c122aa2ee0514e86e1f05c93ea38f8becdc3a58301867021b9d3685815e",
+      "encoding": "utf-8",
+      "hits": [],
+      "brandHits": [],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/AgentsView.vue",
+      "kind": "text",
+      "size": 81844,
+      "hash": "b804edd5d1f517807662cad6872c9c49816021edf2c47df26fc26b16661c3bf4",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 149
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 149
+        }
+      ],
+      "protectedHits": [
+        "https://api.blackpool.cash/api/health",
+        "https://api.blackpool.cash"
+      ]
+    },
+    {
+      "path": "src/views/pages/AnalyticsView.vue",
+      "kind": "text",
+      "size": 24290,
+      "hash": "49da773d30d0c1cdb4b91d79c5e21dc64969d5ba3796f8393ea18f58e476e5ee",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/AppView.vue",
+      "kind": "text",
+      "size": 34052,
+      "hash": "cf0071cd115c81983756464407e5bc68f17a131f6f56e199de6b22a510ad9dc4",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/ChainArbitrumView.vue",
+      "kind": "text",
+      "size": 14635,
+      "hash": "fa6246aadb373fa445c5ea79646a7d5a31cd2e380326b22d0301e58728a724ef",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/ChainBaseView.vue",
+      "kind": "text",
+      "size": 14672,
+      "hash": "1c57f4af26eb8e27bcc7dbe9b708721d6e7adc778839dcfe5bd001f7ab51cfb0",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/ChainBnbView.vue",
+      "kind": "text",
+      "size": 14961,
+      "hash": "e75f6ad5fe394f34ef29a0216f5b7dca14c1e482d65fd25288049babdcbbc2b0",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/ChainRobinhoodView.vue",
+      "kind": "text",
+      "size": 14853,
+      "hash": "ab931494ba9e9a0533fd4012a2de30d97c11e52afd488e5a14653b5f00a73e74",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 15
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/ChangelogView.vue",
+      "kind": "text",
+      "size": 54994,
+      "hash": "86d4530cc26d5aa4d0945c5026cc3a77f50067e2a92dd5f456883f30a0b0f7b4",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 63
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 63
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/DocsView.vue",
+      "kind": "text",
+      "size": 35905,
+      "hash": "c58e4bbd26f8306219c2531e9f30e358a3ecfda3312b3ea5e670d46b30728014",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 42
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 42
+        }
+      ],
+      "protectedHits": [
+        "https://api.blackpool.cash"
+      ]
+    },
+    {
+      "path": "src/views/pages/GuideAgentsView.vue",
+      "kind": "text",
+      "size": 14765,
+      "hash": "2e8424eeac6354c86d8a5e37ebc1b0b0562774687ccc777adc887d998486f49a",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 32
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 32
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/GuideSendView.vue",
+      "kind": "text",
+      "size": 14748,
+      "hash": "346c4a963f0e2acc5cba15df89ee39c6f3a43a0e30649eafcc4adfff81b24976",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 12
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 12
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/PrivacyView.vue",
+      "kind": "text",
+      "size": 15024,
+      "hash": "b5e83461c1bb17835d7ef25db8e23b46e0b065ddbd3af800bbf3151e73e80249",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 13
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 13
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/PrivatePaymentsView.vue",
+      "kind": "text",
+      "size": 11512,
+      "hash": "de360573ab7f942f3d5d3484b71397a0ad4c01e9b3c68b8e8850d0085be68d16",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 8
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 8
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/RecoverView.vue",
+      "kind": "text",
+      "size": 14497,
+      "hash": "6c8694065b810b95b81993a057bb3594a0643611bf6e3b315b444007f31b2ac7",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 2
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/StatusView.vue",
+      "kind": "text",
+      "size": 12254,
+      "hash": "d4a124e2a8d05382e7bfac12d8eb93f77eabd4ea769e395867b9e38500e83c76",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 7
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 7
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/TermsView.vue",
+      "kind": "text",
+      "size": 13961,
+      "hash": "09d92b86254b8e9dd3dd141fc1e6515e2dafedaf29fe1a975fcac84b65a26af9",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 16
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 16
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "src/views/pages/TokenView.vue",
+      "kind": "text",
+      "size": 12672,
+      "hash": "580ecb7d47d688973ea01e8dd93e67e5bb98ed1dcd6d4d3e60609a08383d4c78",
+      "encoding": "utf-8",
+      "hits": [
+        {
+          "value": "Blackpool",
+          "count": 20
+        }
+      ],
+      "brandHits": [
+        {
+          "value": "Blackpool",
+          "count": 20
+        }
+      ],
+      "protectedHits": []
+    },
+    {
+      "path": "public/apple-icon.png",
+      "kind": "image",
+      "size": 5033,
+      "hash": "f57ebc9232a27532f55cf1a2132120498ee80d094ef87eaf5a76b38c011bb51f",
+      "brandHits": []
+    },
+    {
+      "path": "public/favicon.svg",
+      "kind": "image",
+      "size": 295,
+      "hash": "ed51d63babd7ee6992bbfd44ded93416e84d7e7bca067bc58c2d97ecca935f07",
+      "brandHits": []
+    },
+    {
+      "path": "public/mark.svg",
+      "kind": "image",
+      "size": 8330,
+      "hash": "7f6c19434e6eb266f634c8b31a405bd31d922262379ee05b41a007f4f65eaf81",
+      "brandHits": []
+    },
+    {
+      "path": "public/og.png",
+      "kind": "image",
+      "size": 55827,
+      "hash": "caf578be2521cd6d33ce0188192ac519408263893a21a86cc1097fe1244644f4",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/arbitrum.png",
+      "kind": "image",
+      "size": 129702,
+      "hash": "e58e51e08533f100fd93d7b2cd6c1c4ad9456bcbc4a2486c9cef041e84e77343",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/base.png",
+      "kind": "image",
+      "size": 878,
+      "hash": "6a22353d9dac641b2db25f9c1e1e0dfa86f300cef10c5f74cd58d9b993b0452c",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/bnb.png",
+      "kind": "image",
+      "size": 104712,
+      "hash": "86d65436ed9470ff4447f0ffd6426fe2622577421866e49933d2615bdb2a1a18",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/bsc.png",
+      "kind": "image",
+      "size": 104712,
+      "hash": "86d65436ed9470ff4447f0ffd6426fe2622577421866e49933d2615bdb2a1a18",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/eth.png",
+      "kind": "image",
+      "size": 2780,
+      "hash": "eebe29898b8b7de5c9e47daab474152be8095e3ab42d768b84b085c5a12b95c6",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/ethereum.png",
+      "kind": "image",
+      "size": 2780,
+      "hash": "eebe29898b8b7de5c9e47daab474152be8095e3ab42d768b84b085c5a12b95c6",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/robinhood.png",
+      "kind": "image",
+      "size": 4202,
+      "hash": "684ff3f4a9911d0458cfec7b044549b07c331858bc7f39322d1f3b46cb2a3575",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/solana.png",
+      "kind": "image",
+      "size": 1620,
+      "hash": "167bfe79b1b99143b7502bafc0918a47776d617f618a83d1a37879d843f1424a",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/usdc.png",
+      "kind": "image",
+      "size": 7646,
+      "hash": "4abccd937f114618eac9189057b062798e8107e20e69cd799f7ad5d3003c0d7c",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/usdg.png",
+      "kind": "image",
+      "size": 12681,
+      "hash": "eb20c662e0bca0f001048dc7245ee43e27f9d31efeae4d1cfd5ea858455ad6a3",
+      "brandHits": []
+    },
+    {
+      "path": "public/token_logos/usdt.png",
+      "kind": "image",
+      "size": 69679,
+      "hash": "2de63cb5ac9431e6febcd4dfd7527d98654452bddd468fe45b93e22cef67ae15",
+      "brandHits": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/apple-icon.png",
+      "format": "png",
+      "kind": "icon",
+      "bytes": 5033,
+      "width": 180,
+      "height": 180,
+      "aspect": 1.0,
+      "hasAlpha": false,
+      "colors": [
+        "#ebecec",
+        "#0b0c0e",
+        "#eceded",
+        "#edeeee",
+        "#eeefef",
+        "#f3f4f4",
+        "#f2f3f3",
+        "#0a0b0d"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": true
+    },
+    {
+      "path": "public/favicon.svg",
+      "format": "svg",
+      "kind": "favicon",
+      "bytes": 295,
+      "width": 100.0,
+      "height": 100.0,
+      "aspect": 1.0,
+      "hasAlpha": false,
+      "colors": [
+        "#fff",
+        "#000",
+        "#EBECEC"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": true,
+      "title": "",
+      "viewBox": "0 0 100 100"
+    },
+    {
+      "path": "public/mark.svg",
+      "format": "svg",
+      "kind": "logo",
+      "bytes": 8330,
+      "width": 100.0,
+      "height": 100.0,
+      "aspect": 1.0,
+      "hasAlpha": false,
+      "colors": [
+        "#fff",
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#000",
+        "#EBECEC"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false,
+      "title": "",
+      "viewBox": "0 0 100 100"
+    },
+    {
+      "path": "public/og.png",
+      "format": "png",
+      "kind": "og",
+      "bytes": 55827,
+      "width": 1200,
+      "height": 630,
+      "aspect": 1.905,
+      "hasAlpha": false,
+      "colors": [
+        "#0b0c0e",
+        "#0a0b0d",
+        "#020305",
+        "#f4f5f5",
+        "#090a0c",
+        "#ebecec",
+        "#030406",
+        "#0d0e10"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": true
+    },
+    {
+      "path": "public/token_logos/arbitrum.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 129702,
+      "width": 2000,
+      "height": 2000,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#000000",
+        "#213147",
+        "#ffffff",
+        "#84adcb",
+        "#212b32",
+        "#a1d0f2",
+        "#213046",
+        "#11afff"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/HeroSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/base.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 878,
+      "width": 128,
+      "height": 128,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#0052ff",
+        "#000000",
+        "#ffffff",
+        "#0053ff",
+        "#0054ff",
+        "#0055ff",
+        "#ebf2ff",
+        "#bdd2ff"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/HeroSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/bnb.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 104712,
+      "width": 2000,
+      "height": 2000,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#f0b90b",
+        "#000000",
+        "#ffffff",
+        "#f0b90a",
+        "#f0b806",
+        "#efb703",
+        "#f3bb0b",
+        "#efb500"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/bsc.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 104712,
+      "width": 2000,
+      "height": 2000,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#f0b90b",
+        "#000000",
+        "#ffffff",
+        "#f0b90a",
+        "#f0b806",
+        "#efb703",
+        "#f3bb0b",
+        "#efb500"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/HeroSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/eth.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 2780,
+      "width": 64,
+      "height": 64,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#eceff0",
+        "#4c6971",
+        "#edf0f1",
+        "#eef1f2",
+        "#f0f3f4",
+        "#ebeeef",
+        "#f1f4f5",
+        "#f4f6f7"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/BentoSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/ethereum.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 2780,
+      "width": 64,
+      "height": 64,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#eceff0",
+        "#4c6971",
+        "#edf0f1",
+        "#eef1f2",
+        "#f0f3f4",
+        "#ebeeef",
+        "#f1f4f5",
+        "#f4f6f7"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/HeroSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/robinhood.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 4202,
+      "width": 150,
+      "height": 150,
+      "aspect": 1.0,
+      "hasAlpha": false,
+      "colors": [
+        "#ccff00",
+        "#d3ff00",
+        "#d1ff00",
+        "#d0ff00",
+        "#cdff00",
+        "#17120d",
+        "#1c180d",
+        "#d2ff00"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/BentoSection.vue",
+        "src/components/HeroSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/solana.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 1620,
+      "width": 50,
+      "height": 50,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#000000",
+        "#06221c",
+        "#24e1b3",
+        "#26e8ba",
+        "#0f7552",
+        "#47217c",
+        "#25e1b4",
+        "#15da86"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/BentoSection.vue",
+        "src/components/HeroSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/usdc.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 7646,
+      "width": 128,
+      "height": 128,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#2775ca",
+        "#000000",
+        "#ffffff",
+        "#2473c9",
+        "#1f70c8",
+        "#2877ce",
+        "#2674ca",
+        "#2675ca"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "index.html",
+        "src/components/BentoSection.vue",
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/usdg.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 12681,
+      "width": 150,
+      "height": 150,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#314012",
+        "#000000",
+        "#c7e36c",
+        "#324112",
+        "#324113",
+        "#2f3e11",
+        "#c9e56d",
+        "#303f12"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    },
+    {
+      "path": "public/token_logos/usdt.png",
+      "format": "png",
+      "kind": "photo",
+      "bytes": 69679,
+      "width": 2000,
+      "height": 2000,
+      "aspect": 1.0,
+      "hasAlpha": true,
+      "colors": [
+        "#000000",
+        "#50af95",
+        "#ffffff",
+        "#f5f5f5",
+        "#212121",
+        "#4dae93",
+        "#4cad93",
+        "#f8fcfb"
+      ],
+      "text": [],
+      "containsBrand": false,
+      "usedBy": [
+        "src/components/SiteNav.vue",
+        "src/views/pages/AgentsView.vue",
+        "src/views/pages/AnalyticsView.vue",
+        "src/views/pages/AppView.vue",
+        "src/views/pages/ChainArbitrumView.vue",
+        "src/views/pages/ChainBaseView.vue",
+        "src/views/pages/ChainBnbView.vue",
+        "src/views/pages/ChainRobinhoodView.vue",
+        "src/views/pages/ChangelogView.vue",
+        "src/views/pages/DocsView.vue",
+        "src/views/pages/GuideAgentsView.vue",
+        "src/views/pages/GuideSendView.vue",
+        "src/views/pages/PrivacyView.vue",
+        "src/views/pages/PrivatePaymentsView.vue",
+        "src/views/pages/RecoverView.vue",
+        "src/views/pages/StatusView.vue",
+        "src/views/pages/TermsView.vue",
+        "src/views/pages/TokenView.vue"
+      ],
+      "needsVisualReview": false
+    }
+  ],
+  "brand": {
+    "display": "Blackpool",
+    "slug": "blackpool",
+    "confidence": 0.795,
+    "source": "scan",
+    "evidence": [
+      {
+        "value": "Blackpool",
+        "source": "readme:h1",
+        "weight": 1,
+        "files": [
+          "README.md"
+        ]
+      },
+      {
+        "value": "Blackpool",
+        "source": "html:title",
+        "weight": 1,
+        "files": [
+          "index.html"
+        ]
+      },
+      {
+        "value": "Blackpool",
+        "source": "html:og:site_name",
+        "weight": 1,
+        "files": [
+          "index.html"
+        ]
+      },
+      {
+        "value": "Blackpool",
+        "source": "html:og:title",
+        "weight": 1,
+        "files": [
+          "index.html"
+        ]
+      },
+      {
+        "value": "Blackpool",
+        "source": "package:name",
+        "weight": 1,
+        "files": [
+          "package.json"
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "value": "Wallet and account",
+        "score": 8.0
+      },
+      {
+        "value": "Blackpool Website",
+        "score": 8.0
+      },
+      {
+        "value": "What is inside",
+        "score": 8.0
+      },
+      {
+        "value": "Run it",
+        "score": 8.0
+      }
+    ],
+    "variants": {
+      "display": "Blackpool",
+      "lower": "blackpool",
+      "upper": "BLACKPOOL",
+      "title": "Blackpool",
+      "kebab": "blackpool",
+      "snake": "blackpool",
+      "camel": "blackpool",
+      "pascal": "Blackpool",
+      "compact": "Blackpool",
+      "compactLower": "blackpool",
+      "first": "Blackpool",
+      "firstLower": "blackpool",
+      "firstUpper": "BLACKPOOL"
+    },
+    "variantList": [
+      {
+        "value": "Blackpool",
+        "kind": "display"
+      },
+      {
+        "value": "blackpool",
+        "kind": "lower"
+      },
+      {
+        "value": "BLACKPOOL",
+        "kind": "upper"
+      }
+    ],
+    "domains": [
+      {
+        "host": "blackpool.cash",
+        "urls": [
+          "https://blackpool.cash/",
+          "https://blackpool.cash",
+          "https://blackpool.cash/og.png?v=5",
+          "https://blackpool.cash/#org",
+          "https://blackpool.cash/apple-icon.png",
+          "https://blackpool.cash/#website",
+          "https://blackpool.cash/app",
+          "https://blackpool.cash/AGENTS.md",
+          "https://blackpool.cash/llms.txt",
+          "https://blackpool.cash/status",
+          "https://blackpool.cash/docs",
+          "https://blackpool.cash/docs#security",
+          "https://blackpool.cash/zk/manifest.json`",
+          "https://blackpool.cash/docs#api",
+          "https://blackpool.cash/AGENTS.md`",
+          "https://blackpool.cash/zk/manifest.json"
+        ],
+        "functional": false,
+        "files": [
+          "README.md",
+          "index.html",
+          "public/AGENTS.md",
+          "src/data/agentPrompt.js",
+          "src/views/pages/AgentsView.vue"
+        ],
+        "sources": []
+      },
+      {
+        "host": "mcp.blackpool.cash",
+        "urls": [
+          "https://mcp.blackpool.cash/mcp`",
+          "https://mcp.blackpool.cash/mcp"
+        ],
+        "functional": false,
+        "files": [
+          "public/AGENTS.md",
+          "src/views/pages/AgentsView.vue",
+          "src/views/pages/DocsView.vue",
+          "src/views/pages/GuideAgentsView.vue"
+        ],
+        "sources": []
+      },
+      {
+        "host": "api.blackpool.cash`",
+        "urls": [
+          "https://api.blackpool.cash`"
+        ],
+        "functional": true,
+        "files": [
+          "public/AGENTS.md"
+        ],
+        "sources": []
+      },
+      {
+        "host": "api.blackpool.cash",
+        "urls": [
+          "https://api.blackpool.cash/api/health",
+          "https://api.blackpool.cash/api/price?symbols=ETH,SOL",
+          "https://api.blackpool.cash"
+        ],
+        "functional": true,
+        "files": [
+          "public/AGENTS.md",
+          "src/composables/usePriceFeed.js",
+          "src/views/pages/AgentsView.vue",
+          "src/views/pages/DocsView.vue"
+        ],
+        "sources": []
+      }
+    ],
+    "handles": [
+      "blackpool"
+    ],
+    "emails": [
+      "hello@blackpool.cash"
+    ],
+    "packageNames": [
+      "blackpool-website"
+    ],
+    "initials": "",
+    "usedBrands": [
+      "GhostPay",
+      "Cifruna",
+      "Mathlana",
+      "Qubitlane",
+      "Zero Art Protocol",
+      "Provenia",
+      "Loch",
+      "Tidevel",
+      "Miston",
+      "Ivorane",
+      "Filza",
+      "Backers",
+      "Kudorix",
+      "Tessella",
+      "Nummula",
+      "ORAsol",
+      "Attesio",
+      "YOVINX",
+      "Settiva",
+      "Seclura",
+      "Cindral",
+      "Stakri",
+      "Tracefolio",
+      "Tracevio",
+      "lockRH",
+      "Latchera",
+      "Pretiola",
+      "Clepsyra",
+      "Trovane",
+      "Librova",
+      "Ledgiva",
+      "Actoria",
+      "Custoria",
+      "Remitia",
+      "Holdavia",
+      "QUIVANTA",
+      "Leverix",
+      "Veilary",
+      "Fractio",
+      "Qubitess",
+      "Voxcora",
+      "Honoro",
+      "COWL",
+      "Veiline",
+      "Dueframe",
+      "Tranova",
+      "Quittra",
+      "Voxanote",
+      "Sonira",
+      "crypt.fun",
+      "Gradix",
+      "Colopha",
+      "Tabuline",
+      "Rationum",
+      "Latticea",
+      "Coventa",
+      "Latenta",
+      "Docketa",
+      "Navrel",
+      "Clavetra",
+      "Keepora",
+      "Thevra",
+      "Cimela",
+      "Tallyria",
+      "Probvyn",
+      "Veritor",
+      "Gemmora",
+      "Augrin",
+      "Ostenta",
+      "Receiva",
+      "NovaSI",
+      "Nasyai",
+      "Blackpool"
+    ]
+  },
+  "protected": {
+    "urls": [],
+    "hosts": [],
+    "strings": [],
+    "thirdParty": [
+      "@vitejs/plugin-vue",
+      "amazon",
+      "angular",
+      "anthropic",
+      "apple",
+      "aws",
+      "bootstrap",
+      "cloudflare",
+      "deepseek",
+      "digitalocean",
+      "discord",
+      "django",
+      "docker",
+      "facebook",
+      "fastapi",
+      "figma",
+      "flask",
+      "github",
+      "gitlab",
+      "google",
+      "googleanalytics",
+      "googletagmanager",
+      "heroku",
+      "hotjar",
+      "instagram",
+      "intercom",
+      "javascript",
+      "jquery",
+      "kubernetes",
+      "laravel",
+      "linkedin",
+      "meta",
+      "microsoft",
+      "mixpanel",
+      "netlify",
+      "nextjs",
+      "node",
+      "notion",
+      "npm",
+      "nuxt",
+      "openai",
+      "paypal",
+      "plausible",
+      "pnpm",
+      "posthog",
+      "python",
+      "rails",
+      "react",
+      "segment",
+      "sentry",
+      "shopify",
+      "slack",
+      "stripe",
+      "svelte",
+      "tailwind",
+      "tiktok",
+      "twitter",
+      "typescript",
+      "vercel",
+      "vite",
+      "vue",
+      "vue-router",
+      "webpack",
+      "wordpress",
+      "x",
+      "yarn",
+      "youtube",
+      "zendesk"
+    ]
+  },
+  "palette": {
+    "primary": "#ebecec",
+    "accent": "#34c77b",
+    "background": "#0b0c0e",
+    "foreground": "#ebecec",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#34c77b",
+      "#5b8def",
+      "#0b0c0e",
+      "#ebecec",
+      "#6e7074",
+      "#e9a23b",
+      "#27a563",
+      "#2a2b2f",
+      "#4c7fe3",
+      "#c2842a"
+    ],
+    "cssVars": {
+      "color-primary": "#ebecec",
+      "color-primary-hover": "#ffffff",
+      "color-on-primary": "#0b0c0e",
+      "color-accent": "#34c77b",
+      "background": "#0b0c0e"
+    }
+  },
+  "routes": [
+    "/",
+    "/docs",
+    "/agents",
+    "/token",
+    "/privacy",
+    "/terms",
+    "/changelog",
+    "/status"
+  ],
+  "web": {
+    "isWeb": true,
+    "entryHtml": [
+      "index.html"
+    ],
+    "hasPackageJson": true
+  },
+  "brandRegistry": {
+    "path": "brand.txt",
+    "exists": false,
+    "history": [],
+    "current": null,
+    "warnings": []
+  },
+  "warnings": []
+}

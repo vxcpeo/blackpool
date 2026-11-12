@@ -1,0 +1,40 @@
+
+> blackpool-website@1.0.0 dev
+> vite --port 63490 --host 127.0.0.1
+
+
+  VITE v6.4.6  ready in 637 ms
+
+  ➜  Local:   http://127.0.0.1:63490/
+
+> agpool-website@1.0.0 dev
+> vite --port 63862 --host 127.0.0.1
+
+
+  VITE v6.4.6  ready in 638 ms
+
+  ➜  Local:   http://127.0.0.1:63862/
+
+> agpool-website@1.0.0 dev
+> vite --port 63962 --host 127.0.0.1
+
+
+  VITE v6.4.6  ready in 661 ms
+
+  ➜  Local:   http://127.0.0.1:63962/
+
+> agpool-website@1.0.0 dev
+> vite --port 64039 --host 127.0.0.1
+
+
+  VITE v6.4.6  ready in 920 ms
+
+  ➜  Local:   http://127.0.0.1:64039/
+
+> agpool-website@1.0.0 dev
+> vite --port 65012 --host 127.0.0.1
+
+
+  VITE v6.4.6  ready in 2633 ms
+
+  ➜  Local:   http://127.0.0.1:65012/

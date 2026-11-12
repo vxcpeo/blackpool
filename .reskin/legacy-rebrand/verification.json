@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-11T23:48:56+08:00",
+  "ok": true,
+  "gates": {
+    "old_brand_source": {
+      "ok": true,
+      "filesChecked": 73,
+      "hits": [],
+      "pathHits": [],
+      "allowedFiles": []
+    },
+    "new_brand_presence": {
+      "ok": true,
+      "surfaces": {
+        "title": true,
+        "meta": true,
+        "logo": false,
+        "canonical": true,
+        "package": true,
+        "readme": true,
+        "newValues": [
+          "Agpool",
+          "agpool",
+          "agpool.cash",
+          "agpool_robin"
+        ]
+      },
+      "count": 5
+    },
+    "assets": {
+      "ok": true,
+      "problems": [],
+      "checks": [
+        {
+          "source": "public/apple-icon.png",
+          "target": "public/apple-icon.png",
+          "kind": "icon",
+          "ok": true,
+          "image": {
+            "path": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\public\\apple-icon.png",
+            "ok": true,
+            "format": "PNG",
+            "width": 180,
+            "height": 180
+          }
+        },
+        {
+          "source": "public/favicon.svg",
+          "target": "public/favicon.svg",
+          "kind": "favicon",
+          "ok": true,
+          "image": {
+            "path": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\public\\favicon.svg",
+            "ok": true,
+            "format": "svg",
+            "bytes": 379
+          }
+        },
+        {
+          "source": "public/mark.svg",
+          "target": "public/mark.svg",
+          "kind": "logo",
+          "ok": true,
+          "image": {
+            "path": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\public\\mark.svg",
+            "ok": true,
+            "format": "svg",
+            "bytes": 379
+          }
+        },
+        {
+          "source": "public/og.png",
+          "target": "public/og.png",
+          "kind": "og",
+          "ok": true,
+          "image": {
+            "path": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\public\\og.png",
+            "ok": true,
+            "format": "PNG",
+            "width": 1200,
+            "height": 630
+          }
+        }
+      ],
+      "manualReview": []
+    },
+    "references": {
+      "ok": true,
+      "problems": [],
+      "checked": 14
+    },
+    "build_test": {
+      "ok": true,
+      "problems": [],
+      "notes": [
+        "test skipped: script not defined"
+      ],
+      "current": {
+        "build": {
+          "script": "build",
+          "skipped": false,
+          "ok": true,
+          "code": 0,
+          "timedOut": false,
+          "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+          "stdout": "\n> agpool-website@1.0.0 build\n> vite build\n\nvite v6.4.6 building for production...\ntransforming...\n✓ 100 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                                4.26 kB │ gzip:  1.03 kB\ndist/assets/NotFoundView-CxIiUIUn.css          0.66 kB │ gzip:  0.39 kB\ndist/assets/TokenView-CNljxqtW.css             0.92 kB │ gzip:  0.38 kB\ndist/assets/static-page-C_7zD0k2.css           3.07 kB │ gzip:  1.01 kB\ndist/assets/AgentsView-BdUp7Nqt.css            4.23 kB │ gzip:  1.30 kB\ndist/assets/AnalyticsView-Bqas7_6A.css         5.45 kB │ gzip:  1.76 kB\ndist/assets/DocsView-CeFR9m5s.css              5.51 kB │ gzip:  1.64 kB\ndist/assets/AppView-CS8sh29E.css               6.23 kB │ gzip:  1.96 kB\ndist/assets/RecoverView-Dwe36bJM.css           8.23 kB │ gzip:  2.49 kB\ndist/assets/content-4xqYGcMh.css              14.78 kB │ gzip:  3.72 kB\ndist/assets/index-Wz75XNOh.css                91.04 kB │ gzip: 17.67 kB\ndist/assets/NotFoundView-qm3zQ_BN.js           0.47 kB │ gzip:  0.31 kB\ndist/assets/PrivatePaymentsView-DqSrY1J1.js    2.94 kB │ gzip:  1.29 kB\ndist/assets/TokenView-DyWniqcj.js              4.02 kB │ gzip:  1.66 kB\ndist/assets/StatusView-BxjoYRqF.js             4.19 kB │ gzip:  1.61 kB\ndist/assets/TermsView-IEtkwWLz.js              5.40 kB │ gzip:  2.46 kB\ndist/assets/RecoverView-B9lpGo_F.js            5.42 kB │ gzip:  2.29 kB\ndist/assets/ChainArbitrumView-DkocUAPN.js      6.04 kB │ gzip:  2.53 kB\ndist/assets/ChainBaseView-BLj4gusf.js          6.09 kB │ gzip:  2.56 kB\ndist/assets/GuideSendView-DuoBpV43.js          6.15 kB │ gzip:  2.65 kB\ndist/assets/GuideAgentsView-Du92hozC.js        6.23 kB │ gzip:  2.64 kB\ndist/assets/ChainRobinhoodView-BRgyYKU0.js     6.26 kB │ gzip:  2.59 kB\ndist/assets/ChainBnbView-CLMzV115.js           6.37 kB │ gzip:  2.64 kB\ndist/assets/PrivacyView-6YZzj6v0.js            6.45 kB │ gzip:  2.80 kB\ndist/assets/useWallet-ClRonKL7.js             14.02 kB │ gzip:  5.57 kB\ndist/assets/AnalyticsView-TO7906U3.js         17.56 kB │ gzip:  3.36 kB\ndist/assets/DocsView-DFGBd8UD.js              27.30 kB │ gzip:  8.73 kB\ndist/assets/AppView-6rxRmIGF.js               45.31 kB │ gzip: 14.37 kB\ndist/assets/ChangelogView-4BB5RpGI.js         52.07 kB │ gzip: 11.12 kB\ndist/assets/AgentsView-DXFoDnO-.js            76.57 kB │ gzip: 15.02 kB\ndist/assets/index-Bo1btMk2.js                170.33 kB │ gzip: 60.07 kB\n✓ built in 2.26s\n",
+          "stderr": ""
+        },
+        "test": {
+          "script": "test",
+          "skipped": true,
+          "ok": true,
+          "note": "script not defined"
+        }
+      },
+      "baseline": {
+        "createdAt": "2026-11-11T23:15:17+08:00",
+        "project": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website",
+        "build": {
+          "script": "build",
+          "skipped": false,
+          "ok": true,
+          "code": 0,
+          "timedOut": false,
+          "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+          "stdout": "\n> blackpool-website@1.0.0 build\n> vite build\n\nvite v6.4.6 building for production...\ntransforming...\n✓ 102 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                                4.25 kB │ gzip:  1.02 kB\ndist/assets/NotFoundView-CxIiUIUn.css          0.66 kB │ gzip:  0.39 kB\ndist/assets/TokenView-CNljxqtW.css             0.92 kB │ gzip:  0.38 kB\ndist/assets/static-page-C_7zD0k2.css           3.07 kB │ gzip:  1.01 kB\ndist/assets/AgentsView-BdUp7Nqt.css            4.23 kB │ gzip:  1.30 kB\ndist/assets/AnalyticsView-Bqas7_6A.css         5.45 kB │ gzip:  1.76 kB\ndist/assets/DocsView-CeFR9m5s.css              5.51 kB │ gzip:  1.64 kB\ndist/assets/AppView-CS8sh29E.css               6.23 kB │ gzip:  1.96 kB\ndist/assets/RecoverView-Dwe36bJM.css           8.23 kB │ gzip:  2.49 kB\ndist/assets/content-4xqYGcMh.css              14.78 kB │ gzip:  3.72 kB\ndist/assets/index-BQIg9MSJ.css                93.05 kB │ gzip: 18.06 kB\ndist/assets/NotFoundView-B46y-kOE.js           0.47 kB │ gzip:  0.31 kB\ndist/assets/PrivatePaymentsView-CH6i6Qng.js   11.69 kB │ gzip:  5.00 kB\ndist/assets/TokenView-CI2za0DC.js             12.81 kB │ gzip:  5.35 kB\ndist/assets/StatusView-CXPm4PyP.js            12.94 kB │ gzip:  5.34 kB\ndist/assets/RecoverView-Dfoq8tdd.js           13.41 kB │ gzip:  5.78 kB\ndist/assets/useWallet-Dd7D-ifV.js             14.05 kB │ gzip:  5.58 kB\ndist/assets/TermsView-BgwPysgz.js             14.17 kB │ gzip:  6.25 kB\ndist/assets/ChainArbitrumView-Caohvid3.js     14.81 kB │ gzip:  6.29 kB\ndist/assets/ChainBaseView-BcIb7vbm.js         14.86 kB │ gzip:  6.32 kB\ndist/assets/GuideSendView-C-9xRQuu.js         14.91 kB │ gzip:  6.44 kB\ndist/assets/ChainRobinhoodView-Bce1NXKg.js    15.02 kB │ gzip:  6.34 kB\ndist/assets/GuideAgentsView-CVFkDo1f.js       15.06 kB │ gzip:  6.45 kB\ndist/assets/ChainBnbView-DN3c-Bem.js          15.14 kB │ gzip:  6.40 kB\ndist/assets/PrivacyView-Dub4v4og.js           15.21 kB │ gzip:  6.58 kB\ndist/assets/AnalyticsView-BMXPAB-O.js         25.56 kB │ gzip:  6.78 kB\ndist/assets/DocsView-CkqKH_bd.js              36.15 kB │ gzip: 12.63 kB\ndist/assets/AppView-CR4PCkA-.js               46.30 kB │ gzip: 14.81 kB\ndist/assets/ChangelogView-BSxDw93u.js         60.97 kB │ gzip: 14.99 kB\ndist/assets/AgentsView-BsJx5acf.js            85.01 kB │ gzip: 18.74 kB\ndist/assets/index-B5W-oD42.js                196.22 kB │ gzip: 68.13 kB\n✓ built in 2.25s\n",
+          "stderr": ""
+        },
+        "test": {
+          "script": "test",
+          "skipped": true,
+          "ok": true,
+          "note": "script not defined"
+        },
+        "browser": {
+          "ok": true,
+          "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\ROBIN\\blackpool\\website --out E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand --url http://127.0.0.1:63490 --routes /",
+          "code": 0,
+          "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:63490\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [\n    \"/:desktop\",\n    \"/:mobile\"\n  ],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\ROBIN\\\\blackpool\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+          "stderr": "",
+          "browser": {
+            "schemaVersion": 1,
+            "checkedAt": "2026-11-11T15:15:17.432Z",
+            "browser": {
+              "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+              "version": "Chrome/157.0.8103.40",
+              "headless": true,
+              "proxy": null,
+              "method": "chrome-cdp"
+            },
+            "baseUrl": "http://127.0.0.1:63490",
+            "routes": [
+              "/"
+            ],
+            "results": [
+              {
+                "route": "/",
+                "device": "desktop",
+                "url": "http://127.0.0.1:63490/",
+                "finalUrl": "http://127.0.0.1:63490/",
+                "httpStatus": 200,
+                "title": "Blackpool — Private crypto payments that leave no trail",
+                "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-desktop.png",
+                "oldBrand": {
+                  "textHits": [
+                    "blackpool",
+                    "blackpool",
+                    "blackpool"
+                  ],
+                  "attributeHits": [
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool.cash"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool.cash"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool.cash"
+                    },
+                    {
+                      "tag": "a",
+                      "attr": "aria-label",
+                      "value": "X (Twitter): @intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "a",
+                      "attr": "aria-label",
+                      "value": "X (Twitter): @intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "a",
+                      "attr": "aria-label",
+                      "value": "X (Twitter): @intheblackpool",
+                      "variant": "blackpool"
+                    }
+                  ]
+                },
+                "newBrandPresent": [],
+                "consoleErrors": [],
+                "pageErrors": [],
+                "failedRequests": []
+              },
+              {
+                "route": "/",
+                "device": "mobile",
+                "url": "http://127.0.0.1:63490/",
+                "finalUrl": "http://127.0.0.1:63490/",
+                "httpStatus": 200,
+                "title": "Blackpool — Private crypto payments that leave no trail",
+                "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-mobile.png",
+                "oldBrand": {
+                  "textHits": [
+                    "blackpool",
+                    "blackpool",
+                    "blackpool"
+                  ],
+                  "attributeHits": [
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash",
+                      "variant": "blackpool.cash"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool.cash"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "@intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "Blackpool — Private crypto payments that leave no trail",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "meta",
+                      "attr": "content",
+                      "value": "https://blackpool.cash/og.png?v=5",
+                      "variant": "blackpool.cash"
+                    },
+                    {
+                      "tag": "a",
+                      "attr": "aria-label",
+                      "value": "X (Twitter): @intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "a",
+                      "attr": "aria-label",
+                      "value": "X (Twitter): @intheblackpool",
+                      "variant": "blackpool"
+                    },
+                    {
+                      "tag": "a",
+                      "attr": "aria-label",
+                      "value": "X (Twitter): @intheblackpool",
+                      "variant": "blackpool"
+                    }
+                  ]
+                },
+                "newBrandPresent": [],
+                "consoleErrors": [],
+                "pageErrors": [],
+                "failedRequests": []
+              }
+            ]
+          }
+        },
+        "web": true
+      }
+    },
+    "availability": {
+      "ok": true,
+      "selected": {
+        "name": "Agpool",
+        "slug": "agpool"
+      },
+      "method": "chrome-cdp+rdap",
+      "mock": false,
+      "evidence": {
+        "domain": "agpool.cash",
+        "x": "https://x.com/agpool_robin"
+      }
+    },
+    "brand_registry": {
+      "ok": true,
+      "problems": [],
+      "path": "E:/workspace/chuangye/ROBIN/blackpool/website/brand.txt",
+      "history": [
+        "Blackpool"
+      ],
+      "current": "Agpool",
+      "exists": true
+    },
+    "browser": {
+      "ok": true,
+      "problems": [],
+      "oldBrandHits": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "screenshots": [
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\docs-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\docs-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\agents-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\agents-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\token-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\token-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\privacy-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\privacy-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\terms-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\terms-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\changelog-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\changelog-mobile.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\status-desktop.png",
+        "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\status-mobile.png"
+      ],
+      "routes": [
+        "/",
+        "/docs",
+        "/agents",
+        "/token",
+        "/privacy",
+        "/terms",
+        "/changelog",
+        "/status"
+      ],
+      "run": {
+        "ok": true,
+        "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\ROBIN\\blackpool\\website --out E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand --url http://127.0.0.1:65012 --routes /,/docs,/agents,/token,/privacy,/terms,/changelog,/status",
+        "code": 0,
+        "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:65012\",\n  \"screenshots\": 16,\n  \"oldBrandRoutes\": [],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\ROBIN\\\\blackpool\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+        "stderr": ""
+      }
+    },
+    "report": {
+      "ok": true,
+      "path": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/REPORT.md"
+    }
+  },
+  "build": {
+    "build": {
+      "script": "build",
+      "skipped": false,
+      "ok": true,
+      "code": 0,
+      "timedOut": false,
+      "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+      "stdout": "\n> agpool-website@1.0.0 build\n> vite build\n\nvite v6.4.6 building for production...\ntransforming...\n✓ 100 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                                4.26 kB │ gzip:  1.03 kB\ndist/assets/NotFoundView-CxIiUIUn.css          0.66 kB │ gzip:  0.39 kB\ndist/assets/TokenView-CNljxqtW.css             0.92 kB │ gzip:  0.38 kB\ndist/assets/static-page-C_7zD0k2.css           3.07 kB │ gzip:  1.01 kB\ndist/assets/AgentsView-BdUp7Nqt.css            4.23 kB │ gzip:  1.30 kB\ndist/assets/AnalyticsView-Bqas7_6A.css         5.45 kB │ gzip:  1.76 kB\ndist/assets/DocsView-CeFR9m5s.css              5.51 kB │ gzip:  1.64 kB\ndist/assets/AppView-CS8sh29E.css               6.23 kB │ gzip:  1.96 kB\ndist/assets/RecoverView-Dwe36bJM.css           8.23 kB │ gzip:  2.49 kB\ndist/assets/content-4xqYGcMh.css              14.78 kB │ gzip:  3.72 kB\ndist/assets/index-Wz75XNOh.css                91.04 kB │ gzip: 17.67 kB\ndist/assets/NotFoundView-qm3zQ_BN.js           0.47 kB │ gzip:  0.31 kB\ndist/assets/PrivatePaymentsView-DqSrY1J1.js    2.94 kB │ gzip:  1.29 kB\ndist/assets/TokenView-DyWniqcj.js              4.02 kB │ gzip:  1.66 kB\ndist/assets/StatusView-BxjoYRqF.js             4.19 kB │ gzip:  1.61 kB\ndist/assets/TermsView-IEtkwWLz.js              5.40 kB │ gzip:  2.46 kB\ndist/assets/RecoverView-B9lpGo_F.js            5.42 kB │ gzip:  2.29 kB\ndist/assets/ChainArbitrumView-DkocUAPN.js      6.04 kB │ gzip:  2.53 kB\ndist/assets/ChainBaseView-BLj4gusf.js          6.09 kB │ gzip:  2.56 kB\ndist/assets/GuideSendView-DuoBpV43.js          6.15 kB │ gzip:  2.65 kB\ndist/assets/GuideAgentsView-Du92hozC.js        6.23 kB │ gzip:  2.64 kB\ndist/assets/ChainRobinhoodView-BRgyYKU0.js     6.26 kB │ gzip:  2.59 kB\ndist/assets/ChainBnbView-CLMzV115.js           6.37 kB │ gzip:  2.64 kB\ndist/assets/PrivacyView-6YZzj6v0.js            6.45 kB │ gzip:  2.80 kB\ndist/assets/useWallet-ClRonKL7.js             14.02 kB │ gzip:  5.57 kB\ndist/assets/AnalyticsView-TO7906U3.js         17.56 kB │ gzip:  3.36 kB\ndist/assets/DocsView-DFGBd8UD.js              27.30 kB │ gzip:  8.73 kB\ndist/assets/AppView-6rxRmIGF.js               45.31 kB │ gzip: 14.37 kB\ndist/assets/ChangelogView-4BB5RpGI.js         52.07 kB │ gzip: 11.12 kB\ndist/assets/AgentsView-DXFoDnO-.js            76.57 kB │ gzip: 15.02 kB\ndist/assets/index-Bo1btMk2.js                170.33 kB │ gzip: 60.07 kB\n✓ built in 2.26s\n",
+      "stderr": ""
+    },
+    "test": {
+      "script": "test",
+      "skipped": true,
+      "ok": true,
+      "note": "script not defined"
+    }
+  },
+  "browser": {
+    "schemaVersion": 1,
+    "checkedAt": "2026-11-11T15:48:56.548Z",
+    "browser": {
+      "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "version": "Chrome/157.0.8103.40",
+      "headless": true,
+      "proxy": null,
+      "method": "chrome-cdp"
+    },
+    "baseUrl": "http://127.0.0.1:65012",
+    "routes": [
+      "/",
+      "/docs",
+      "/agents",
+      "/token",
+      "/privacy",
+      "/terms",
+      "/changelog",
+      "/status"
+    ],
+    "results": [
+      {
+        "route": "/",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/",
+        "finalUrl": "http://127.0.0.1:65012/",
+        "httpStatus": 200,
+        "title": "Agpool — Private crypto payments that leave no trail",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool_robin"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/",
+        "finalUrl": "http://127.0.0.1:65012/",
+        "httpStatus": 200,
+        "title": "Agpool — Private crypto payments that leave no trail",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool_robin"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/docs",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/docs",
+        "finalUrl": "http://127.0.0.1:65012/docs",
+        "httpStatus": 200,
+        "title": "Docs: how Agpool private payments work — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\docs-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/docs",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/docs",
+        "finalUrl": "http://127.0.0.1:65012/docs",
+        "httpStatus": 200,
+        "title": "Docs: how Agpool private payments work — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\docs-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/agents",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/agents",
+        "finalUrl": "http://127.0.0.1:65012/agents",
+        "httpStatus": 200,
+        "title": "AGENTS.md: private crypto payments for AI agents — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\agents-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/agents",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/agents",
+        "finalUrl": "http://127.0.0.1:65012/agents",
+        "httpStatus": 200,
+        "title": "AGENTS.md: private crypto payments for AI agents — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\agents-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/token",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/token",
+        "finalUrl": "http://127.0.0.1:65012/token",
+        "httpStatus": 200,
+        "title": "$BP on Robinhood Chain — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\token-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash",
+          "agpool_robin"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/token",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/token",
+        "finalUrl": "http://127.0.0.1:65012/token",
+        "httpStatus": 200,
+        "title": "$BP on Robinhood Chain — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\token-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash",
+          "agpool_robin"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/privacy",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/privacy",
+        "finalUrl": "http://127.0.0.1:65012/privacy",
+        "httpStatus": 200,
+        "title": "Privacy — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\privacy-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/privacy",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/privacy",
+        "finalUrl": "http://127.0.0.1:65012/privacy",
+        "httpStatus": 200,
+        "title": "Privacy — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\privacy-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/terms",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/terms",
+        "finalUrl": "http://127.0.0.1:65012/terms",
+        "httpStatus": 200,
+        "title": "Terms — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\terms-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/terms",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/terms",
+        "finalUrl": "http://127.0.0.1:65012/terms",
+        "httpStatus": 200,
+        "title": "Terms — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\terms-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/changelog",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/changelog",
+        "finalUrl": "http://127.0.0.1:65012/changelog",
+        "httpStatus": 200,
+        "title": "Changelog — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\changelog-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash",
+          "agpool_robin"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/changelog",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/changelog",
+        "finalUrl": "http://127.0.0.1:65012/changelog",
+        "httpStatus": 200,
+        "title": "Changelog — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\changelog-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash",
+          "agpool_robin"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/status",
+        "device": "desktop",
+        "url": "http://127.0.0.1:65012/status",
+        "finalUrl": "http://127.0.0.1:65012/status",
+        "httpStatus": 200,
+        "title": "Status — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\status-desktop.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      },
+      {
+        "route": "/status",
+        "device": "mobile",
+        "url": "http://127.0.0.1:65012/status",
+        "finalUrl": "http://127.0.0.1:65012/status",
+        "httpStatus": 200,
+        "title": "Status — Agpool",
+        "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\status-mobile.png",
+        "oldBrand": {
+          "textHits": [],
+          "attributeHits": []
+        },
+        "newBrandPresent": [
+          "Agpool",
+          "agpool",
+          "agpool.cash"
+        ],
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": []
+      }
+    ]
+  },
+  "availability": {
+    "selected": {
+      "name": "Agpool",
+      "slug": "agpool",
+      "display": "Agpool",
+      "domain": "agpool.cash",
+      "x": "https://x.com/agpool_robin",
+      "handle": "agpool_robin",
+      "email": "hello@agpool.cash"
+    },
+    "method": "chrome-cdp+rdap"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "purpose": "Pre-pass: brand-owned code-host URLs that apply.py protects by host name",
+  "pairs": [
+    [
+      "https://github.com/blackpooldev/blackpool",
+      "https://github.com/agpooldev/agpool"
+    ],
+    [
+      "https://www.npmjs.com/package/@blackpool/cli",
+      "https://www.npmjs.com/package/@agpool/cli"
+    ]
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "before": "56049f446682c46d4501e35a653777ba35ed286c6020bd9d0154dbdd0266d7bc",
+      "after": "6cec565df9a7bb6ff5c6aeb8b90b6a83771894a6b1267e37d4b40d2e0287fb9a",
+      "replacements": {
+        "https://github.com/blackpooldev/blackpool": 1,
+        "https://www.npmjs.com/package/@blackpool/cli": 1
+      }
+    },
+    {
+      "path": "public/AGENTS.md",
+      "before": "5838b3f62a0f68f4c1b13bebd0bdee91264e6add981d2660796751dca4565bcd",
+      "after": "e3d68ba7c4428fc3f372d8166cd1988795d93346437e03ba385baf74996406f5",
+      "replacements": {
+        "https://www.npmjs.com/package/@blackpool/cli": 2
+      }
+    },
+    {
+      "path": "src/components/AgentsSection.vue",
+      "before": "05ca42a12d52f7d5bf895826987781afada3bdb272ddc02c947da56507702b60",
+      "after": "45780152b67d38d9da495bf00bcaed5819e1a4821186e589175ed1706a9aa970",
+      "replacements": {
+        "https://www.npmjs.com/package/@blackpool/cli": 1
+      }
+    },
+    {
+      "path": "src/components/app/AppFooter.vue",
+      "before": "dfb72a6bfa61a114b4ddd9bafc531e276707e8466c5bcdeb69e8fa4d35730704",
+      "after": "3f9a8c4063cab007ac01a1b2dd769346673e8a1089f43147508736d26337264b",
+      "replacements": {
+        "https://github.com/blackpooldev/blackpool": 1
+      }
+    },
+    {
+      "path": "src/components/SiteFooter.vue",
+      "before": "ed32a3eff6a6f521b7e171e1e8f573435e762353361d8fd579b9b950c3a60190",
+      "after": "109343c24a17067d2ffe39bb919e3912ad1d09b4857d5d805445711450c299d3",
+      "replacements": {
+        "https://github.com/blackpooldev/blackpool": 3,
+        "https://www.npmjs.com/package/@blackpool/cli": 1
+      }
+    },
+    {
+      "path": "src/views/pages/AgentsView.vue",
+      "before": "b804edd5d1f517807662cad6872c9c49816021edf2c47df26fc26b16661c3bf4",
+      "after": "48d34712676e0ffdc0cddf59b6a676d0a68f312ff1d7916391ad034727dbbde6",
+      "replacements": {
+        "https://github.com/blackpooldev/blackpool": 1,
+        "https://www.npmjs.com/package/@blackpool/cli": 2
+      }
+    },
+    {
+      "path": "src/views/pages/ChangelogView.vue",
+      "before": "86d4530cc26d5aa4d0945c5026cc3a77f50067e2a92dd5f456883f30a0b0f7b4",
+      "after": "21fd6105200b49e1b9848d7ae3a36bd616c06736cccefde0797e6a24fc79a6e2",
+      "replacements": {
+        "https://www.npmjs.com/package/@blackpool/cli": 1
+      }
+    },
+    {
+      "path": "src/views/pages/DocsView.vue",
+      "before": "c58e4bbd26f8306219c2531e9f30e358a3ecfda3312b3ea5e670d46b30728014",
+      "after": "8b1829f91e790b247aaa54d587270da9884cc2cfb0c88d3d760936b1827b075b",
+      "replacements": {
+        "https://github.com/blackpooldev/blackpool": 1
+      }
+    },
+    {
+      "path": "src/views/pages/GuideAgentsView.vue",
+      "before": "2e8424eeac6354c86d8a5e37ebc1b0b0562774687ccc777adc887d998486f49a",
+      "after": "1b58cca93790b655a65711adce7e5030a8ec06dc70026e47c3559fccde4f7259",
+      "replacements": {
+        "https://www.npmjs.com/package/@blackpool/cli": 1
+      }
+    },
+    {
+      "path": "src/views/pages/TokenView.vue",
+      "before": "580ecb7d47d688973ea01e8dd93e67e5bb98ed1dcd6d4d3e60609a08383d4c78",
+      "after": "b73b0f5f65cd0a1902290224ada386a7f899973eaf07d36a85ce81ad9247ead3",
+      "replacements": {
+        "https://github.com/blackpooldev/blackpool": 1
+      }
+    }
+  ]
+}

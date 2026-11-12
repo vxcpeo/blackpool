@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-11-11T23:18:12+08:00",
+  "palette": {
+    "primary": "#ebecec",
+    "accent": "#34c77b",
+    "background": "#0b0c0e",
+    "foreground": "#ebecec"
+  },
+  "items": [
+    {
+      "source": "public/apple-icon.png",
+      "generated": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/generated/public/apple-icon.png",
+      "kind": "icon",
+      "format": "png",
+      "width": 180,
+      "height": 180,
+      "bytes": 2692,
+      "manual": false
+    },
+    {
+      "source": "public/favicon.svg",
+      "generated": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/generated/public/favicon.svg",
+      "kind": "favicon",
+      "format": "svg",
+      "width": 100,
+      "height": 100,
+      "bytes": 379,
+      "manual": false
+    },
+    {
+      "source": "public/mark.svg",
+      "generated": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/generated/public/mark.svg",
+      "kind": "logo",
+      "format": "svg",
+      "width": 100.0,
+      "height": 100.0,
+      "bytes": 379,
+      "manual": false
+    },
+    {
+      "source": "public/og.png",
+      "generated": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/generated/public/og.png",
+      "kind": "og",
+      "format": "png",
+      "width": 1200,
+      "height": 630,
+      "bytes": 152537,
+      "manual": false
+    }
+  ],
+  "manualReview": [],
+  "generatedRoot": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/generated"
+}

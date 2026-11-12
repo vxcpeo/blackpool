@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-11T15:48:56.548Z",
+  "browser": {
+    "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "version": "Chrome/157.0.8103.40",
+    "headless": true,
+    "proxy": null,
+    "method": "chrome-cdp"
+  },
+  "baseUrl": "http://127.0.0.1:65012",
+  "routes": [
+    "/",
+    "/docs",
+    "/agents",
+    "/token",
+    "/privacy",
+    "/terms",
+    "/changelog",
+    "/status"
+  ],
+  "results": [
+    {
+      "route": "/",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/",
+      "finalUrl": "http://127.0.0.1:65012/",
+      "httpStatus": 200,
+      "title": "Agpool — Private crypto payments that leave no trail",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool_robin"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/",
+      "finalUrl": "http://127.0.0.1:65012/",
+      "httpStatus": 200,
+      "title": "Agpool — Private crypto payments that leave no trail",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool_robin"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/docs",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/docs",
+      "finalUrl": "http://127.0.0.1:65012/docs",
+      "httpStatus": 200,
+      "title": "Docs: how Agpool private payments work — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\docs-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/docs",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/docs",
+      "finalUrl": "http://127.0.0.1:65012/docs",
+      "httpStatus": 200,
+      "title": "Docs: how Agpool private payments work — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\docs-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/agents",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/agents",
+      "finalUrl": "http://127.0.0.1:65012/agents",
+      "httpStatus": 200,
+      "title": "AGENTS.md: private crypto payments for AI agents — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\agents-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/agents",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/agents",
+      "finalUrl": "http://127.0.0.1:65012/agents",
+      "httpStatus": 200,
+      "title": "AGENTS.md: private crypto payments for AI agents — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\agents-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/token",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/token",
+      "finalUrl": "http://127.0.0.1:65012/token",
+      "httpStatus": 200,
+      "title": "$BP on Robinhood Chain — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\token-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash",
+        "agpool_robin"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/token",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/token",
+      "finalUrl": "http://127.0.0.1:65012/token",
+      "httpStatus": 200,
+      "title": "$BP on Robinhood Chain — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\token-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash",
+        "agpool_robin"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/privacy",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/privacy",
+      "finalUrl": "http://127.0.0.1:65012/privacy",
+      "httpStatus": 200,
+      "title": "Privacy — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\privacy-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/privacy",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/privacy",
+      "finalUrl": "http://127.0.0.1:65012/privacy",
+      "httpStatus": 200,
+      "title": "Privacy — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\privacy-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/terms",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/terms",
+      "finalUrl": "http://127.0.0.1:65012/terms",
+      "httpStatus": 200,
+      "title": "Terms — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\terms-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/terms",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/terms",
+      "finalUrl": "http://127.0.0.1:65012/terms",
+      "httpStatus": 200,
+      "title": "Terms — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\terms-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/changelog",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/changelog",
+      "finalUrl": "http://127.0.0.1:65012/changelog",
+      "httpStatus": 200,
+      "title": "Changelog — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\changelog-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash",
+        "agpool_robin"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/changelog",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/changelog",
+      "finalUrl": "http://127.0.0.1:65012/changelog",
+      "httpStatus": 200,
+      "title": "Changelog — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\changelog-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash",
+        "agpool_robin"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/status",
+      "device": "desktop",
+      "url": "http://127.0.0.1:65012/status",
+      "finalUrl": "http://127.0.0.1:65012/status",
+      "httpStatus": 200,
+      "title": "Status — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\status-desktop.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/status",
+      "device": "mobile",
+      "url": "http://127.0.0.1:65012/status",
+      "finalUrl": "http://127.0.0.1:65012/status",
+      "httpStatus": 200,
+      "title": "Status — Agpool",
+      "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\status-mobile.png",
+      "oldBrand": {
+        "textHits": [],
+        "attributeHits": []
+      },
+      "newBrandPresent": [
+        "Agpool",
+        "agpool",
+        "agpool.cash"
+      ],
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ]
+}

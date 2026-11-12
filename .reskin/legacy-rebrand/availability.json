@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-11T23:22:00+08:00",
+  "finishedAt": "2026-11-11T23:23:00+08:00",
+  "source": "user-mandated",
+  "note": "The user fixed the brand (agpool) and the X handle (@agpool_robin), so availability does not gate selection; both were still checked and recorded.",
+  "browser": {
+    "method": "chrome-cdp+rdap",
+    "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "version": "Chrome/157.0.8103.40",
+    "headless": true,
+    "proxy": null,
+    "tool": "rebrand/lib/chrome.mjs (CDP)"
+  },
+  "candidates": [
+    {
+      "name": "Agpool",
+      "slug": "agpool",
+      "score": null,
+      "domain": {
+        "host": "agpool.cash",
+        "status": "available",
+        "confidence": "medium",
+        "signal": "rdap-not-found",
+        "rdap": {
+          "url": "https://rdap.centralnic.com/cash/domain/agpool.cash",
+          "status": 404,
+          "title": "Object not found",
+          "screenshot": null
+        },
+        "registrar": {
+          "status": "not-checked",
+          "signal": "rdap-sufficient"
+        },
+        "evidence": ".rebrand/availability/rdap-agpool.cash.json"
+      },
+      "x": {
+        "handle": "agpool_robin",
+        "status": "available",
+        "confidence": "high",
+        "signal": "x-profile-404-account-does-not-exist",
+        "url": "https://x.com/agpool_robin",
+        "screenshot": ".rebrand/availability/x-agpool_robin.png",
+        "evidence": ".rebrand/availability/x-agpool_robin.json"
+      },
+      "verdict": "pass"
+    }
+  ],
+  "selected": {
+    "name": "Agpool",
+    "slug": "agpool",
+    "display": "Agpool",
+    "domain": "agpool.cash",
+    "x": "https://x.com/agpool_robin",
+    "handle": "agpool_robin",
+    "email": "hello@agpool.cash"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://rdap.centralnic.com/cash/domain/agpool.cash",
+  "checkedAt": "2026-11-11T23:20:00+08:00",
+  "httpStatus": 404,
+  "objectClassName": "error",
+  "errorCode": 404,
+  "title": "Object not found",
+  "description": "Object not found",
+  "interpretation": "The .cash registry has no registration object for agpool.cash, so it is registrable (medium confidence; premium/reserved status not ruled out)."
+}

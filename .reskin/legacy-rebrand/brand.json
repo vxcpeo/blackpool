@@ -1,0 +1,87 @@
+{
+  "old": {
+    "display": "Blackpool",
+    "slug": "blackpool",
+    "variants": {
+      "display": "Blackpool",
+      "lower": "blackpool",
+      "upper": "BLACKPOOL",
+      "title": "Blackpool",
+      "kebab": "blackpool",
+      "snake": "blackpool",
+      "camel": "blackpool",
+      "pascal": "Blackpool",
+      "compact": "Blackpool",
+      "compactLower": "blackpool",
+      "first": "Blackpool",
+      "firstLower": "blackpool",
+      "firstUpper": "BLACKPOOL"
+    },
+    "variantList": [
+      {
+        "value": "Blackpool",
+        "kind": "display"
+      },
+      {
+        "value": "blackpool",
+        "kind": "lower"
+      },
+      {
+        "value": "BLACKPOOL",
+        "kind": "upper"
+      }
+    ],
+    "domains": [
+      "blackpool.cash"
+    ],
+    "handles": [
+      "intheblackpool"
+    ],
+    "emails": [
+      "hello@blackpool.cash"
+    ],
+    "packageNames": [
+      "blackpool-website"
+    ],
+    "initials": "",
+    "allowFiles": [],
+    "allowStrings": []
+  },
+  "new": {
+    "display": "Agpool",
+    "slug": "agpool",
+    "domain": "agpool.cash",
+    "email": "hello@agpool.cash",
+    "handle": "agpool_robin",
+    "url": "https://agpool.cash",
+    "note": "Name and X handle mandated by the user; the original .cash TLD is kept."
+  },
+  "availability": {
+    "source": "user-mandated",
+    "brand": "agpool",
+    "domain": "agpool.cash",
+    "handle": "agpool_robin",
+    "checks": [
+      {
+        "kind": "domain",
+        "host": "agpool.cash",
+        "method": "CentralNic RDAP",
+        "url": "https://rdap.centralnic.com/cash/domain/agpool.cash",
+        "status": "available",
+        "confidence": "medium",
+        "note": "RDAP returned HTTP 404 Object not found (unregistered); premium/reserved status not ruled out."
+      },
+      {
+        "kind": "x",
+        "handle": "agpool_robin",
+        "method": "x.com profile page",
+        "url": "https://x.com/agpool_robin",
+        "status": "available",
+        "confidence": "high",
+        "note": "HTTP 404 with X's 'This account doesn't exist' page on 2026-11-11."
+      }
+    ],
+    "note": "The brand and handle were chosen by the user, so availability does not gate this rebrand."
+  },
+  "notes": "Old brand Blackpool; domains include the api/mcp subdomains that inherit from blackpool.cash; handles use the real X account @intheblackpool, while @blackpool is only the npm scope and must follow the generic blackpool -> agpool mapping."
+}

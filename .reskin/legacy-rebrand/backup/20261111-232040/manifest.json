@@ -1,0 +1,603 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-11T23:20:40+08:00",
+  "project": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website",
+  "backupDir": "E:/workspace/chuangye/ROBIN/blackpool/website/.rebrand/backup/20261111-232040",
+  "files": [
+    {
+      "path": ".gitignore",
+      "backupPath": ".gitignore",
+      "replacements": 0,
+      "hashBefore": "d4eb4b2a58d28b9568507d05a125c520fa48604046472340d390f08861168095",
+      "hashAfter": "d4eb4b2a58d28b9568507d05a125c520fa48604046472340d390f08861168095"
+    },
+    {
+      "path": "README.md",
+      "backupPath": "README.md",
+      "replacements": 6,
+      "hashBefore": "15c4ea1ef7fd8f17d9fc342c9a0121e529d4cc4995ad4d7ddfa8a85f8f8ff287",
+      "hashAfter": "d9b201311a69016ac9f8cd30db2d0e7a6eb066962c413e69d82e777c2cc729d8"
+    },
+    {
+      "path": "index.html",
+      "backupPath": "index.html",
+      "replacements": 26,
+      "hashBefore": "6cec565df9a7bb6ff5c6aeb8b90b6a83771894a6b1267e37d4b40d2e0287fb9a",
+      "hashAfter": "2e0745f1ed94e344c20959dfff085789e99c6df9010c9e83a734cc5b63200da4"
+    },
+    {
+      "path": "package.json",
+      "backupPath": "package.json",
+      "replacements": 2,
+      "hashBefore": "60a80b9ab7160eb2a85decd541520b436803934d5dc6bd7dc091a2bf3337235e",
+      "hashAfter": "98f11057cda56c8f326fa9bdbe28f296429c4377865e7f74703754024b36a9dd"
+    },
+    {
+      "path": "vite.config.js",
+      "backupPath": "vite.config.js",
+      "replacements": 0,
+      "hashBefore": "00f6cdba97945d4982565a58295d449ab0c90901a8fd7f995f190004bf3b44de",
+      "hashAfter": "00f6cdba97945d4982565a58295d449ab0c90901a8fd7f995f190004bf3b44de"
+    },
+    {
+      "path": "public/AGENTS.md",
+      "backupPath": "public/AGENTS.md",
+      "replacements": 143,
+      "hashBefore": "e3d68ba7c4428fc3f372d8166cd1988795d93346437e03ba385baf74996406f5",
+      "hashAfter": "363bb1ba328878d702e741d1bea460e20a61eb6919f06f2861658c57d19794fa"
+    },
+    {
+      "path": "src/App.vue",
+      "backupPath": "src/App.vue",
+      "replacements": 0,
+      "hashBefore": "7b6e8889e08fc521d5b2d7d4fda645a0777d872f8f71798f563cb0326f5ce20f",
+      "hashAfter": "7b6e8889e08fc521d5b2d7d4fda645a0777d872f8f71798f563cb0326f5ce20f"
+    },
+    {
+      "path": "src/main.js",
+      "backupPath": "src/main.js",
+      "replacements": 0,
+      "hashBefore": "c9ef63835afa19ffc653a1ff67caa4c599db4928537a81609a11b6088e050006",
+      "hashAfter": "c9ef63835afa19ffc653a1ff67caa4c599db4928537a81609a11b6088e050006"
+    },
+    {
+      "path": "src/components/AgentsSection.vue",
+      "backupPath": "src/components/AgentsSection.vue",
+      "replacements": 11,
+      "hashBefore": "45780152b67d38d9da495bf00bcaed5819e1a4821186e589175ed1706a9aa970",
+      "hashAfter": "c694a15ed7e18c9926273c40631019c6144e172ff59e8a72743e2f7b6f40c877"
+    },
+    {
+      "path": "src/components/BentoSection.vue",
+      "backupPath": "src/components/BentoSection.vue",
+      "replacements": 2,
+      "hashBefore": "fb523fc4132f96f9c9fd18acfe99bf231248088740a3791a1ac1d87b173097b7",
+      "hashAfter": "b5367d51354bda5540a427447a663aeaae9823ca03a9c5a32e60c1c2a0b9118b"
+    },
+    {
+      "path": "src/components/BrandMark.vue",
+      "backupPath": "src/components/BrandMark.vue",
+      "replacements": 1,
+      "hashBefore": "c13ee95b377fe2742d3571b6f3a831a7b56f0a2926d254e7ebc5fa7f8a3d9b52",
+      "hashAfter": "15b3b95e2d062f5f14af3cfb761b5c18bde7864c90e5687a3419f3738d784381"
+    },
+    {
+      "path": "src/components/ChangelogToast.vue",
+      "backupPath": "src/components/ChangelogToast.vue",
+      "replacements": 1,
+      "hashBefore": "c007fec27e6090aaf80116eb8a39528caa3e113f49c5811eca75aa344ad06d1e",
+      "hashAfter": "f5886634dbad210bdb087c0ea0a48adcf8f486057d272599d4efb7ac262a856d"
+    },
+    {
+      "path": "src/components/CtaSection.vue",
+      "backupPath": "src/components/CtaSection.vue",
+      "replacements": 0,
+      "hashBefore": "64cc80caab05430f8d032e65d0276f54b4bf1f20210c1c22e78dbc9e5fc23a70",
+      "hashAfter": "64cc80caab05430f8d032e65d0276f54b4bf1f20210c1c22e78dbc9e5fc23a70"
+    },
+    {
+      "path": "src/components/FaqSection.vue",
+      "backupPath": "src/components/FaqSection.vue",
+      "replacements": 1,
+      "hashBefore": "981415afc57324dc5aad66aaa948d5183d607432d72ccfb3815a10340bd2bd6c",
+      "hashAfter": "b2d6efb9f40a9ae3f2cce0b3c4cfec4b325cde01361db2b677fa2d558efc71f2"
+    },
+    {
+      "path": "src/components/HeroSection.vue",
+      "backupPath": "src/components/HeroSection.vue",
+      "replacements": 0,
+      "hashBefore": "c343a643ad1b416b2c9ac360386ee0f845cab63322464559c4f1ee6b6fca2b70",
+      "hashAfter": "c343a643ad1b416b2c9ac360386ee0f845cab63322464559c4f1ee6b6fca2b70"
+    },
+    {
+      "path": "src/components/NavIcon.vue",
+      "backupPath": "src/components/NavIcon.vue",
+      "replacements": 0,
+      "hashBefore": "397208975e79969f0aaf6c21ea97be1a07cf71088ca6b488588662fa2a3a67b6",
+      "hashAfter": "397208975e79969f0aaf6c21ea97be1a07cf71088ca6b488588662fa2a3a67b6"
+    },
+    {
+      "path": "src/components/PrinciplesSection.vue",
+      "backupPath": "src/components/PrinciplesSection.vue",
+      "replacements": 0,
+      "hashBefore": "9cc512f21e4725af69b645263a4c5e2ff21e79d8d0c7d6a62d598eeb8bc57bad",
+      "hashAfter": "9cc512f21e4725af69b645263a4c5e2ff21e79d8d0c7d6a62d598eeb8bc57bad"
+    },
+    {
+      "path": "src/components/ProductWindow.vue",
+      "backupPath": "src/components/ProductWindow.vue",
+      "replacements": 6,
+      "hashBefore": "0e3d56f0e55952ddcdda61f0ea3664abfa7b23b4fc69cd33fb3798a4bc3cb056",
+      "hashAfter": "de5af9cd8ec19f8bb88c09bff9b03d5f997728a47a7c050b2e41c10c6330215a"
+    },
+    {
+      "path": "src/components/RaysBackground.vue",
+      "backupPath": "src/components/RaysBackground.vue",
+      "replacements": 0,
+      "hashBefore": "1afffd9ae41877f43da8409c364404310290a893519561c6d317071047648b56",
+      "hashAfter": "1afffd9ae41877f43da8409c364404310290a893519561c6d317071047648b56"
+    },
+    {
+      "path": "src/components/SiteFooter.vue",
+      "backupPath": "src/components/SiteFooter.vue",
+      "replacements": 7,
+      "hashBefore": "109343c24a17067d2ffe39bb919e3912ad1d09b4857d5d805445711450c299d3",
+      "hashAfter": "8fa3b29aab05111e70af0076d152d7eea8e54e4c32b1af91ffef2d8ced13d5cb"
+    },
+    {
+      "path": "src/components/SiteNav.vue",
+      "backupPath": "src/components/SiteNav.vue",
+      "replacements": 1,
+      "hashBefore": "94fa040d82c7c47db994273c304ad36a5cd24bbfcc804c4c4b06a8023c739969",
+      "hashAfter": "85065959935ed3d9b14e7c532ee3bffa7e5388b16482d294fe7bf864e4990004"
+    },
+    {
+      "path": "src/components/SiteNotice.vue",
+      "backupPath": "src/components/SiteNotice.vue",
+      "replacements": 2,
+      "hashBefore": "51a511f16721c6ed7b424aab814c1acf7232ed4f548d7acdc61fd4647954b68e",
+      "hashAfter": "3cbf3e63b45c91d245e8518a70bb88ede8dfcbcb6c627c675663d02343dda2ab"
+    },
+    {
+      "path": "src/components/UseCasesSection.vue",
+      "backupPath": "src/components/UseCasesSection.vue",
+      "replacements": 2,
+      "hashBefore": "4787119d240d03e76a3ac6cffb6da9679cd06c37a16b5402c759a9bd4f4be067",
+      "hashAfter": "81bfff055f50754dda93fb199c7211f1cea62933c03f69840e7bc1ce0d4bd606"
+    },
+    {
+      "path": "src/components/WordmarkCanvas.vue",
+      "backupPath": "src/components/WordmarkCanvas.vue",
+      "replacements": 3,
+      "hashBefore": "02f697934727406537f8702ba64f51c0816acc443358942c7fe9bfc32dc3be47",
+      "hashAfter": "cc13eed3abb76d8b4ef18837f75941d4680ab21c75d1674da301290908178963"
+    },
+    {
+      "path": "src/components/app/AccountMenu.vue",
+      "backupPath": "src/components/app/AccountMenu.vue",
+      "replacements": 0,
+      "hashBefore": "98cabe4631d9170687c7096230f21411749099240e1bb079bac79e87cdfcba6a",
+      "hashAfter": "98cabe4631d9170687c7096230f21411749099240e1bb079bac79e87cdfcba6a"
+    },
+    {
+      "path": "src/components/app/ActionModal.vue",
+      "backupPath": "src/components/app/ActionModal.vue",
+      "replacements": 0,
+      "hashBefore": "10ffa3783a123ab312fcd85c25e0aba377e8dcdf555fa260ff88c720e3d8d271",
+      "hashAfter": "10ffa3783a123ab312fcd85c25e0aba377e8dcdf555fa260ff88c720e3d8d271"
+    },
+    {
+      "path": "src/components/app/AppFooter.vue",
+      "backupPath": "src/components/app/AppFooter.vue",
+      "replacements": 4,
+      "hashBefore": "3f9a8c4063cab007ac01a1b2dd769346673e8a1089f43147508736d26337264b",
+      "hashAfter": "c4bb548549754d2bc1bbdfc5f5b5768329323b0fa210958800da20a543cccb74"
+    },
+    {
+      "path": "src/components/app/ConnectModal.vue",
+      "backupPath": "src/components/app/ConnectModal.vue",
+      "replacements": 1,
+      "hashBefore": "969285630ee315b1bd5fc6e235b9f67f341d11e3b0fbd8a46d495ad6aa9f35cc",
+      "hashAfter": "63d41e4ef82e679e82759f2e14bd269487b504cd9127433f6a3041ca74e956da"
+    },
+    {
+      "path": "src/components/app/TopUpModal.vue",
+      "backupPath": "src/components/app/TopUpModal.vue",
+      "replacements": 0,
+      "hashBefore": "9a101d8c2ae5ff54b33cdb6f28140ed4e9ca8200e10619287aa790b7f5986538",
+      "hashAfter": "9a101d8c2ae5ff54b33cdb6f28140ed4e9ca8200e10619287aa790b7f5986538"
+    },
+    {
+      "path": "src/composables/useBalances.js",
+      "backupPath": "src/composables/useBalances.js",
+      "replacements": 0,
+      "hashBefore": "9436c97df69114ecddb4ced18762110dabc6502c637e06405a404aa8508e2d4b",
+      "hashAfter": "9436c97df69114ecddb4ced18762110dabc6502c637e06405a404aa8508e2d4b"
+    },
+    {
+      "path": "src/composables/useChangelog.js",
+      "backupPath": "src/composables/useChangelog.js",
+      "replacements": 0,
+      "hashBefore": "a7043552b0ae6c1383a6cab1a042ea1ee03d362da8ddb9a2ebed73efbb80ae90",
+      "hashAfter": "a7043552b0ae6c1383a6cab1a042ea1ee03d362da8ddb9a2ebed73efbb80ae90"
+    },
+    {
+      "path": "src/composables/useCopyControls.js",
+      "backupPath": "src/composables/useCopyControls.js",
+      "replacements": 0,
+      "hashBefore": "c7d216a478b3603e329f5ac80e3d97dcfbabd805c3de529d7dcd796329a50fa6",
+      "hashAfter": "c7d216a478b3603e329f5ac80e3d97dcfbabd805c3de529d7dcd796329a50fa6"
+    },
+    {
+      "path": "src/composables/useLandingEffects.js",
+      "backupPath": "src/composables/useLandingEffects.js",
+      "replacements": 0,
+      "hashBefore": "8cf298ce5d7f2983b6d7d4cc57f17efe0dbc7913f007b685b3de9a904ef05a98",
+      "hashAfter": "8cf298ce5d7f2983b6d7d4cc57f17efe0dbc7913f007b685b3de9a904ef05a98"
+    },
+    {
+      "path": "src/composables/useLinkInterception.js",
+      "backupPath": "src/composables/useLinkInterception.js",
+      "replacements": 0,
+      "hashBefore": "bab64b80d92ad4d4479e60940d2460e0be7f7f55337fcd83ba8f3947845a37b6",
+      "hashAfter": "bab64b80d92ad4d4479e60940d2460e0be7f7f55337fcd83ba8f3947845a37b6"
+    },
+    {
+      "path": "src/composables/usePriceFeed.js",
+      "backupPath": "src/composables/usePriceFeed.js",
+      "replacements": 3,
+      "hashBefore": "f118d49a3e765cad6bc22e69c544ed022de2707111219e2475a530fa0c7aa228",
+      "hashAfter": "1c1c19d04fe0b87d610191b5ca5a25eae2454ebc3aaad7a43565f9f94723d54f"
+    },
+    {
+      "path": "src/composables/usePrivateAccount.js",
+      "backupPath": "src/composables/usePrivateAccount.js",
+      "replacements": 1,
+      "hashBefore": "19bfb54935cbc11be3018a2fff29724ee4e320f419abac09be638066f48facf1",
+      "hashAfter": "f5f6c011d540ce87866f66aacfc7ba298151b0c517ae67de0e1bb5ad10d469fa"
+    },
+    {
+      "path": "src/composables/useStatusRefresh.js",
+      "backupPath": "src/composables/useStatusRefresh.js",
+      "replacements": 0,
+      "hashBefore": "8c1f05d9edd83e6943cfca36c6633ac49a027dc48a60ddbe7f4b17a276429ca9",
+      "hashAfter": "8c1f05d9edd83e6943cfca36c6633ac49a027dc48a60ddbe7f4b17a276429ca9"
+    },
+    {
+      "path": "src/composables/useWallet.js",
+      "backupPath": "src/composables/useWallet.js",
+      "replacements": 6,
+      "hashBefore": "c1740cc653ea9efcbe84b75fde72d76de63a621f22f2173d60b85d5ab5472064",
+      "hashAfter": "e07f7a3600f4829e40db833c6f5875dd2ce8814451f9de54f09b053a4562c0d7"
+    },
+    {
+      "path": "src/data/agentPrompt.js",
+      "backupPath": "src/data/agentPrompt.js",
+      "replacements": 11,
+      "hashBefore": "ca013d282137724db01c0ee47724335764bc03bb9e010b7270bce698881c54b3",
+      "hashAfter": "05d9057d600e1e60f22a9ba790a0c0fda82dfd62a9dca07a9f5eabcf62dbc654"
+    },
+    {
+      "path": "src/data/chains.js",
+      "backupPath": "src/data/chains.js",
+      "replacements": 1,
+      "hashBefore": "dd9233613a5e6d0bd0a9cba6b79654e446ad46c612001bd6ecd70912b1c4b519",
+      "hashAfter": "395a30a191ebdaf1738f88b40e1bec9abd5be7cae1b6c4e88dcb3ef873576a5f"
+    },
+    {
+      "path": "src/data/nav.js",
+      "backupPath": "src/data/nav.js",
+      "replacements": 0,
+      "hashBefore": "4d2e0cb54b2b00868ea88401a9cc7b903a78f75a6d1f92c382f5ae1923d0c665",
+      "hashAfter": "4d2e0cb54b2b00868ea88401a9cc7b903a78f75a6d1f92c382f5ae1923d0c665"
+    },
+    {
+      "path": "src/router/index.js",
+      "backupPath": "src/router/index.js",
+      "replacements": 32,
+      "hashBefore": "bac92c35d67925d70b1efc8f6a2dad71eff7999be94d7923e603ff4ca64f7cca",
+      "hashAfter": "9aa7b76ad732de0c5b92e337db109b03ba71455c965377bd4e0b0b93b0e4097e"
+    },
+    {
+      "path": "src/styles/app.css",
+      "backupPath": "src/styles/app.css",
+      "replacements": 0,
+      "hashBefore": "12326916228dbc9c10e8a9c93c6c3967ece359e49a1d4a5bddc389bc2580ab8a",
+      "hashAfter": "12326916228dbc9c10e8a9c93c6c3967ece359e49a1d4a5bddc389bc2580ab8a"
+    },
+    {
+      "path": "src/styles/base.css",
+      "backupPath": "src/styles/base.css",
+      "replacements": 0,
+      "hashBefore": "aa075f768db305ecf08acd240094786052f9a25fc6fbcc44b5aff112175bf141",
+      "hashAfter": "aa075f768db305ecf08acd240094786052f9a25fc6fbcc44b5aff112175bf141"
+    },
+    {
+      "path": "src/styles/landing.css",
+      "backupPath": "src/styles/landing.css",
+      "replacements": 0,
+      "hashBefore": "d24a8cf793d9ba42ac07848e3ced1b7d9c2fb4522635434f7267b9103ac5445b",
+      "hashAfter": "d24a8cf793d9ba42ac07848e3ced1b7d9c2fb4522635434f7267b9103ac5445b"
+    },
+    {
+      "path": "src/styles/notice.css",
+      "backupPath": "src/styles/notice.css",
+      "replacements": 0,
+      "hashBefore": "18aec669c50e943602e14285e72e30f87ffa32985f7cf91a484d9e25e8a7497f",
+      "hashAfter": "18aec669c50e943602e14285e72e30f87ffa32985f7cf91a484d9e25e8a7497f"
+    },
+    {
+      "path": "src/styles/content/agents.css",
+      "backupPath": "src/styles/content/agents.css",
+      "replacements": 0,
+      "hashBefore": "66d8eb2641b2be3466bdc23aadf05e73ce114bca62a8a083c0f0ece55647d307",
+      "hashAfter": "66d8eb2641b2be3466bdc23aadf05e73ce114bca62a8a083c0f0ece55647d307"
+    },
+    {
+      "path": "src/styles/content/analytics.css",
+      "backupPath": "src/styles/content/analytics.css",
+      "replacements": 0,
+      "hashBefore": "3b5d8f3b301e7d73de66b1f327b19be91382ecc63fae03a7488c156198a3bace",
+      "hashAfter": "3b5d8f3b301e7d73de66b1f327b19be91382ecc63fae03a7488c156198a3bace"
+    },
+    {
+      "path": "src/styles/content/content.css",
+      "backupPath": "src/styles/content/content.css",
+      "replacements": 0,
+      "hashBefore": "b3bb89ea24d1bbab8936a574543d5c70b612776089493e493d6411d56dc1dd66",
+      "hashAfter": "b3bb89ea24d1bbab8936a574543d5c70b612776089493e493d6411d56dc1dd66"
+    },
+    {
+      "path": "src/styles/content/docs.css",
+      "backupPath": "src/styles/content/docs.css",
+      "replacements": 0,
+      "hashBefore": "a7263dd5e9bd5271a92734e1c62c0cbf451292b8cf8f2e855923f4a9fdf43f48",
+      "hashAfter": "a7263dd5e9bd5271a92734e1c62c0cbf451292b8cf8f2e855923f4a9fdf43f48"
+    },
+    {
+      "path": "src/styles/content/recover.css",
+      "backupPath": "src/styles/content/recover.css",
+      "replacements": 0,
+      "hashBefore": "140b0fee5624e951de8f6fe5a5dba154ee3bafbe285ef0d5ade2968ae181d90e",
+      "hashAfter": "140b0fee5624e951de8f6fe5a5dba154ee3bafbe285ef0d5ade2968ae181d90e"
+    },
+    {
+      "path": "src/styles/content/static-page.css",
+      "backupPath": "src/styles/content/static-page.css",
+      "replacements": 0,
+      "hashBefore": "a3eccefcb14610c75401bc4e831379c714714fb470067b471246029fc4812cb2",
+      "hashAfter": "a3eccefcb14610c75401bc4e831379c714714fb470067b471246029fc4812cb2"
+    },
+    {
+      "path": "src/styles/content/token.css",
+      "backupPath": "src/styles/content/token.css",
+      "replacements": 0,
+      "hashBefore": "dbfc4e612748643373afc038ff40977b74f0960b128d95501270df3fbb07aa0e",
+      "hashAfter": "dbfc4e612748643373afc038ff40977b74f0960b128d95501270df3fbb07aa0e"
+    },
+    {
+      "path": "src/utils/format.js",
+      "backupPath": "src/utils/format.js",
+      "replacements": 0,
+      "hashBefore": "c83c12930e1c64b970c7da08c580b20fbb7eabd4e24e77652d2b905ea6a23539",
+      "hashAfter": "c83c12930e1c64b970c7da08c580b20fbb7eabd4e24e77652d2b905ea6a23539"
+    },
+    {
+      "path": "src/views/HomeView.vue",
+      "backupPath": "src/views/HomeView.vue",
+      "replacements": 0,
+      "hashBefore": "f65525b9faebac5b59be53c9d9dcefba4969d996bcea76efcb8624f18bc148d2",
+      "hashAfter": "f65525b9faebac5b59be53c9d9dcefba4969d996bcea76efcb8624f18bc148d2"
+    },
+    {
+      "path": "src/views/NotFoundView.vue",
+      "backupPath": "src/views/NotFoundView.vue",
+      "replacements": 0,
+      "hashBefore": "ac047c122aa2ee0514e86e1f05c93ea38f8becdc3a58301867021b9d3685815e",
+      "hashAfter": "ac047c122aa2ee0514e86e1f05c93ea38f8becdc3a58301867021b9d3685815e"
+    },
+    {
+      "path": "src/views/pages/AgentsView.vue",
+      "backupPath": "src/views/pages/AgentsView.vue",
+      "replacements": 145,
+      "hashBefore": "48d34712676e0ffdc0cddf59b6a676d0a68f312ff1d7916391ad034727dbbde6",
+      "hashAfter": "81d7c9dbcd9cd432cf4bc877992535b6da899e817774cc622504562300a5f5f2"
+    },
+    {
+      "path": "src/views/pages/AnalyticsView.vue",
+      "backupPath": "src/views/pages/AnalyticsView.vue",
+      "replacements": 2,
+      "hashBefore": "49da773d30d0c1cdb4b91d79c5e21dc64969d5ba3796f8393ea18f58e476e5ee",
+      "hashAfter": "4feb342e355a15d3b4c29978b28721d4f7c806f1d84deeb3fcd08e435249eac2"
+    },
+    {
+      "path": "src/views/pages/AppView.vue",
+      "backupPath": "src/views/pages/AppView.vue",
+      "replacements": 2,
+      "hashBefore": "cf0071cd115c81983756464407e5bc68f17a131f6f56e199de6b22a510ad9dc4",
+      "hashAfter": "786e17ab608901de43a5aa5963b15fb8af1092453baf75aa855416396bcffbcc"
+    },
+    {
+      "path": "src/views/pages/ChainArbitrumView.vue",
+      "backupPath": "src/views/pages/ChainArbitrumView.vue",
+      "replacements": 15,
+      "hashBefore": "fa6246aadb373fa445c5ea79646a7d5a31cd2e380326b22d0301e58728a724ef",
+      "hashAfter": "b1224b695694b7248aac06f414396e7cb4c01c1942de418d56e12a48640ec54b"
+    },
+    {
+      "path": "src/views/pages/ChainBaseView.vue",
+      "backupPath": "src/views/pages/ChainBaseView.vue",
+      "replacements": 15,
+      "hashBefore": "1c57f4af26eb8e27bcc7dbe9b708721d6e7adc778839dcfe5bd001f7ab51cfb0",
+      "hashAfter": "5fb91d6174d93d289e06e3cd26c52fe201edaea19ac913607fb324ca9ba5ecc2"
+    },
+    {
+      "path": "src/views/pages/ChainBnbView.vue",
+      "backupPath": "src/views/pages/ChainBnbView.vue",
+      "replacements": 15,
+      "hashBefore": "e75f6ad5fe394f34ef29a0216f5b7dca14c1e482d65fd25288049babdcbbc2b0",
+      "hashAfter": "3c70f11bc94598833c61431e3504cb838e721db2fa79f037ac19b625806d2347"
+    },
+    {
+      "path": "src/views/pages/ChainRobinhoodView.vue",
+      "backupPath": "src/views/pages/ChainRobinhoodView.vue",
+      "replacements": 15,
+      "hashBefore": "ab931494ba9e9a0533fd4012a2de30d97c11e52afd488e5a14653b5f00a73e74",
+      "hashAfter": "2b3b4ac1e6de10c2c02da247c9610c1ac2f64a65347e3bb2bbaaca37c1f6d799"
+    },
+    {
+      "path": "src/views/pages/ChangelogView.vue",
+      "backupPath": "src/views/pages/ChangelogView.vue",
+      "replacements": 62,
+      "hashBefore": "21fd6105200b49e1b9848d7ae3a36bd616c06736cccefde0797e6a24fc79a6e2",
+      "hashAfter": "74aefe7c158d225278c3270121929910e15143fc053da8125ccf9f2709e7bc31"
+    },
+    {
+      "path": "src/views/pages/DocsView.vue",
+      "backupPath": "src/views/pages/DocsView.vue",
+      "replacements": 40,
+      "hashBefore": "8b1829f91e790b247aaa54d587270da9884cc2cfb0c88d3d760936b1827b075b",
+      "hashAfter": "5002e575a0f22eb1ef940e9dec91a2b71049dd8967e8ddbd2699a4718519fe7c"
+    },
+    {
+      "path": "src/views/pages/GuideAgentsView.vue",
+      "backupPath": "src/views/pages/GuideAgentsView.vue",
+      "replacements": 31,
+      "hashBefore": "1b58cca93790b655a65711adce7e5030a8ec06dc70026e47c3559fccde4f7259",
+      "hashAfter": "cfd731db74277ea120709b62e345a7b5361f07c1f5777e048765ab56f96f75ad"
+    },
+    {
+      "path": "src/views/pages/GuideSendView.vue",
+      "backupPath": "src/views/pages/GuideSendView.vue",
+      "replacements": 12,
+      "hashBefore": "346c4a963f0e2acc5cba15df89ee39c6f3a43a0e30649eafcc4adfff81b24976",
+      "hashAfter": "ff3c8fa10dda481c589432cefad119b22782670a26d712da08122207ae1d6bbe"
+    },
+    {
+      "path": "src/views/pages/PrivacyView.vue",
+      "backupPath": "src/views/pages/PrivacyView.vue",
+      "replacements": 13,
+      "hashBefore": "b5e83461c1bb17835d7ef25db8e23b46e0b065ddbd3af800bbf3151e73e80249",
+      "hashAfter": "ee069d02b2f7897e1ff848a3f981c01f917824e6ed369f1434b6fc80fcf0c56b"
+    },
+    {
+      "path": "src/views/pages/PrivatePaymentsView.vue",
+      "backupPath": "src/views/pages/PrivatePaymentsView.vue",
+      "replacements": 8,
+      "hashBefore": "de360573ab7f942f3d5d3484b71397a0ad4c01e9b3c68b8e8850d0085be68d16",
+      "hashAfter": "f22c02bfcc34f85bd9752d3d52705fe9cd9241fa11d08b12e80de47ccbb2fad1"
+    },
+    {
+      "path": "src/views/pages/RecoverView.vue",
+      "backupPath": "src/views/pages/RecoverView.vue",
+      "replacements": 2,
+      "hashBefore": "6c8694065b810b95b81993a057bb3594a0643611bf6e3b315b444007f31b2ac7",
+      "hashAfter": "660db4bb070cb7cd89cdbadfdaa4d9ef0de5958c00b26749153941a0450ebf97"
+    },
+    {
+      "path": "src/views/pages/StatusView.vue",
+      "backupPath": "src/views/pages/StatusView.vue",
+      "replacements": 7,
+      "hashBefore": "d4a124e2a8d05382e7bfac12d8eb93f77eabd4ea769e395867b9e38500e83c76",
+      "hashAfter": "ec930d046ca289c1b4df9a6350360e7e4c93b48c7bb7daab47a0ca65895f6e7d"
+    },
+    {
+      "path": "src/views/pages/TermsView.vue",
+      "backupPath": "src/views/pages/TermsView.vue",
+      "replacements": 16,
+      "hashBefore": "09d92b86254b8e9dd3dd141fc1e6515e2dafedaf29fe1a975fcac84b65a26af9",
+      "hashAfter": "1be4152bee401eb19a1b93d55deb7b6dfc2e2f99321918b48708cc949ce1ea47"
+    },
+    {
+      "path": "src/views/pages/TokenView.vue",
+      "backupPath": "src/views/pages/TokenView.vue",
+      "replacements": 18,
+      "hashBefore": "b73b0f5f65cd0a1902290224ada386a7f899973eaf07d36a85ce81ad9247ead3",
+      "hashAfter": "9ff4d1ef07e7bf84b1a015c1eab68d20ba757e11334ccc3faca44005d0530554"
+    }
+  ],
+  "renames": [],
+  "assets": [
+    {
+      "source": "public/apple-icon.png",
+      "target": "public/apple-icon.png",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\apple-icon.png",
+      "backupPath": "public/apple-icon.png"
+    },
+    {
+      "source": "public/favicon.svg",
+      "target": "public/favicon.svg",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\favicon.svg",
+      "backupPath": "public/favicon.svg"
+    },
+    {
+      "source": "public/mark.svg",
+      "target": "public/mark.svg",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\mark.svg",
+      "backupPath": "public/mark.svg"
+    },
+    {
+      "source": "public/og.png",
+      "target": "public/og.png",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\og.png",
+      "backupPath": "public/og.png"
+    }
+  ],
+  "old": {
+    "display": "Blackpool",
+    "slug": "blackpool",
+    "variants": {
+      "display": "Blackpool",
+      "lower": "blackpool",
+      "upper": "BLACKPOOL",
+      "title": "Blackpool",
+      "kebab": "blackpool",
+      "snake": "blackpool",
+      "camel": "blackpool",
+      "pascal": "Blackpool",
+      "compact": "Blackpool",
+      "compactLower": "blackpool",
+      "first": "Blackpool",
+      "firstLower": "blackpool",
+      "firstUpper": "BLACKPOOL"
+    },
+    "variantList": [
+      {
+        "value": "Blackpool",
+        "kind": "display"
+      },
+      {
+        "value": "blackpool",
+        "kind": "lower"
+      },
+      {
+        "value": "BLACKPOOL",
+        "kind": "upper"
+      }
+    ],
+    "domains": [
+      "blackpool.cash"
+    ],
+    "handles": [
+      "intheblackpool"
+    ],
+    "emails": [
+      "hello@blackpool.cash"
+    ],
+    "packageNames": [
+      "blackpool-website"
+    ],
+    "initials": "",
+    "allowFiles": [],
+    "allowStrings": []
+  },
+  "new": {
+    "display": "Agpool",
+    "slug": "agpool",
+    "domain": "agpool.cash",
+    "email": "hello@agpool.cash",
+    "handle": "agpool_robin",
+    "url": "https://agpool.cash",
+    "note": "Name and X handle mandated by the user; the original .cash TLD is kept."
+  }
+}

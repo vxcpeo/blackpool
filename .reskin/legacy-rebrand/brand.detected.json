@@ -1,0 +1,129 @@
+{
+  "old": {
+    "display": "Blackpool",
+    "slug": "blackpool",
+    "variants": {
+      "display": "Blackpool",
+      "lower": "blackpool",
+      "upper": "BLACKPOOL",
+      "title": "Blackpool",
+      "kebab": "blackpool",
+      "snake": "blackpool",
+      "camel": "blackpool",
+      "pascal": "Blackpool",
+      "compact": "Blackpool",
+      "compactLower": "blackpool",
+      "first": "Blackpool",
+      "firstLower": "blackpool",
+      "firstUpper": "BLACKPOOL"
+    },
+    "variantList": [
+      {
+        "value": "Blackpool",
+        "kind": "display"
+      },
+      {
+        "value": "blackpool",
+        "kind": "lower"
+      },
+      {
+        "value": "BLACKPOOL",
+        "kind": "upper"
+      }
+    ],
+    "domains": [
+      "blackpool.cash",
+      "mcp.blackpool.cash",
+      "api.blackpool.cash`",
+      "api.blackpool.cash"
+    ],
+    "handles": [
+      "blackpool"
+    ],
+    "emails": [
+      "hello@blackpool.cash"
+    ],
+    "packageNames": [
+      "blackpool-website"
+    ],
+    "initials": "",
+    "allowFiles": [],
+    "allowStrings": []
+  },
+  "usedBrands": [
+    "GhostPay",
+    "Cifruna",
+    "Mathlana",
+    "Qubitlane",
+    "Zero Art Protocol",
+    "Provenia",
+    "Loch",
+    "Tidevel",
+    "Miston",
+    "Ivorane",
+    "Filza",
+    "Backers",
+    "Kudorix",
+    "Tessella",
+    "Nummula",
+    "ORAsol",
+    "Attesio",
+    "YOVINX",
+    "Settiva",
+    "Seclura",
+    "Cindral",
+    "Stakri",
+    "Tracefolio",
+    "Tracevio",
+    "lockRH",
+    "Latchera",
+    "Pretiola",
+    "Clepsyra",
+    "Trovane",
+    "Librova",
+    "Ledgiva",
+    "Actoria",
+    "Custoria",
+    "Remitia",
+    "Holdavia",
+    "QUIVANTA",
+    "Leverix",
+    "Veilary",
+    "Fractio",
+    "Qubitess",
+    "Voxcora",
+    "Honoro",
+    "COWL",
+    "Veiline",
+    "Dueframe",
+    "Tranova",
+    "Quittra",
+    "Voxanote",
+    "Sonira",
+    "crypt.fun",
+    "Gradix",
+    "Colopha",
+    "Tabuline",
+    "Rationum",
+    "Latticea",
+    "Coventa",
+    "Latenta",
+    "Docketa",
+    "Navrel",
+    "Clavetra",
+    "Keepora",
+    "Thevra",
+    "Cimela",
+    "Tallyria",
+    "Probvyn",
+    "Veritor",
+    "Gemmora",
+    "Augrin",
+    "Ostenta",
+    "Receiva",
+    "NovaSI",
+    "Nasyai",
+    "Blackpool"
+  ],
+  "notes": ""
+}

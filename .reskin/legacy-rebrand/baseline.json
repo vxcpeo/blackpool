@@ -1,0 +1,485 @@
+{
+  "createdAt": "2026-11-11T23:15:17+08:00",
+  "project": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website",
+  "build": {
+    "script": "build",
+    "skipped": false,
+    "ok": true,
+    "code": 0,
+    "timedOut": false,
+    "cmd": "C:\\Program Files\\nodejs\\npm.CMD run build --if-present",
+    "stdout": "\n> blackpool-website@1.0.0 build\n> vite build\n\nvite v6.4.6 building for production...\ntransforming...\n✓ 102 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                                4.25 kB │ gzip:  1.02 kB\ndist/assets/NotFoundView-CxIiUIUn.css          0.66 kB │ gzip:  0.39 kB\ndist/assets/TokenView-CNljxqtW.css             0.92 kB │ gzip:  0.38 kB\ndist/assets/static-page-C_7zD0k2.css           3.07 kB │ gzip:  1.01 kB\ndist/assets/AgentsView-BdUp7Nqt.css            4.23 kB │ gzip:  1.30 kB\ndist/assets/AnalyticsView-Bqas7_6A.css         5.45 kB │ gzip:  1.76 kB\ndist/assets/DocsView-CeFR9m5s.css              5.51 kB │ gzip:  1.64 kB\ndist/assets/AppView-CS8sh29E.css               6.23 kB │ gzip:  1.96 kB\ndist/assets/RecoverView-Dwe36bJM.css           8.23 kB │ gzip:  2.49 kB\ndist/assets/content-4xqYGcMh.css              14.78 kB │ gzip:  3.72 kB\ndist/assets/index-BQIg9MSJ.css                93.05 kB │ gzip: 18.06 kB\ndist/assets/NotFoundView-B46y-kOE.js           0.47 kB │ gzip:  0.31 kB\ndist/assets/PrivatePaymentsView-CH6i6Qng.js   11.69 kB │ gzip:  5.00 kB\ndist/assets/TokenView-CI2za0DC.js             12.81 kB │ gzip:  5.35 kB\ndist/assets/StatusView-CXPm4PyP.js            12.94 kB │ gzip:  5.34 kB\ndist/assets/RecoverView-Dfoq8tdd.js           13.41 kB │ gzip:  5.78 kB\ndist/assets/useWallet-Dd7D-ifV.js             14.05 kB │ gzip:  5.58 kB\ndist/assets/TermsView-BgwPysgz.js             14.17 kB │ gzip:  6.25 kB\ndist/assets/ChainArbitrumView-Caohvid3.js     14.81 kB │ gzip:  6.29 kB\ndist/assets/ChainBaseView-BcIb7vbm.js         14.86 kB │ gzip:  6.32 kB\ndist/assets/GuideSendView-C-9xRQuu.js         14.91 kB │ gzip:  6.44 kB\ndist/assets/ChainRobinhoodView-Bce1NXKg.js    15.02 kB │ gzip:  6.34 kB\ndist/assets/GuideAgentsView-CVFkDo1f.js       15.06 kB │ gzip:  6.45 kB\ndist/assets/ChainBnbView-DN3c-Bem.js          15.14 kB │ gzip:  6.40 kB\ndist/assets/PrivacyView-Dub4v4og.js           15.21 kB │ gzip:  6.58 kB\ndist/assets/AnalyticsView-BMXPAB-O.js         25.56 kB │ gzip:  6.78 kB\ndist/assets/DocsView-CkqKH_bd.js              36.15 kB │ gzip: 12.63 kB\ndist/assets/AppView-CR4PCkA-.js               46.30 kB │ gzip: 14.81 kB\ndist/assets/ChangelogView-BSxDw93u.js         60.97 kB │ gzip: 14.99 kB\ndist/assets/AgentsView-BsJx5acf.js            85.01 kB │ gzip: 18.74 kB\ndist/assets/index-B5W-oD42.js                196.22 kB │ gzip: 68.13 kB\n✓ built in 2.25s\n",
+    "stderr": ""
+  },
+  "test": {
+    "script": "test",
+    "skipped": true,
+    "ok": true,
+    "note": "script not defined"
+  },
+  "browser": {
+    "ok": true,
+    "cmd": "C:\\Program Files\\nodejs\\node.EXE C:\\Users\\Administrator\\.dsh\\skills\\rebrand\\scripts\\check.mjs --screenshots --project E:\\workspace\\chuangye\\ROBIN\\blackpool\\website --out E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand --url http://127.0.0.1:63490 --routes /",
+    "code": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"url\": \"http://127.0.0.1:63490\",\n  \"screenshots\": 2,\n  \"oldBrandRoutes\": [\n    \"/:desktop\",\n    \"/:mobile\"\n  ],\n  \"browserJson\": \"E:\\\\workspace\\\\chuangye\\\\ROBIN\\\\blackpool\\\\website\\\\.rebrand\\\\browser.json\"\n}\n",
+    "stderr": "",
+    "browser": {
+      "schemaVersion": 1,
+      "checkedAt": "2026-11-11T15:15:17.432Z",
+      "browser": {
+        "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "Chrome/157.0.8103.40",
+        "headless": true,
+        "proxy": null,
+        "method": "chrome-cdp"
+      },
+      "baseUrl": "http://127.0.0.1:63490",
+      "routes": [
+        "/"
+      ],
+      "results": [
+        {
+          "route": "/",
+          "device": "desktop",
+          "url": "http://127.0.0.1:63490/",
+          "finalUrl": "http://127.0.0.1:63490/",
+          "httpStatus": 200,
+          "title": "Blackpool — Private crypto payments that leave no trail",
+          "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-desktop.png",
+          "oldBrand": {
+            "textHits": [
+              "blackpool",
+              "blackpool",
+              "blackpool"
+            ],
+            "attributeHits": [
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool.cash"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool.cash"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool.cash"
+              },
+              {
+                "tag": "a",
+                "attr": "aria-label",
+                "value": "X (Twitter): @intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "a",
+                "attr": "aria-label",
+                "value": "X (Twitter): @intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "a",
+                "attr": "aria-label",
+                "value": "X (Twitter): @intheblackpool",
+                "variant": "blackpool"
+              }
+            ]
+          },
+          "newBrandPresent": [],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": []
+        },
+        {
+          "route": "/",
+          "device": "mobile",
+          "url": "http://127.0.0.1:63490/",
+          "finalUrl": "http://127.0.0.1:63490/",
+          "httpStatus": 200,
+          "title": "Blackpool — Private crypto payments that leave no trail",
+          "screenshot": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\screenshots\\root-mobile.png",
+          "oldBrand": {
+            "textHits": [
+              "blackpool",
+              "blackpool",
+              "blackpool"
+            ],
+            "attributeHits": [
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash",
+                "variant": "blackpool.cash"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool.cash"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "@intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "Blackpool — Private crypto payments that leave no trail",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "meta",
+                "attr": "content",
+                "value": "https://blackpool.cash/og.png?v=5",
+                "variant": "blackpool.cash"
+              },
+              {
+                "tag": "a",
+                "attr": "aria-label",
+                "value": "X (Twitter): @intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "a",
+                "attr": "aria-label",
+                "value": "X (Twitter): @intheblackpool",
+                "variant": "blackpool"
+              },
+              {
+                "tag": "a",
+                "attr": "aria-label",
+                "value": "X (Twitter): @intheblackpool",
+                "variant": "blackpool"
+              }
+            ]
+          },
+          "newBrandPresent": [],
+          "consoleErrors": [],
+          "pageErrors": [],
+          "failedRequests": []
+        }
+      ]
+    }
+  },
+  "web": true
+}

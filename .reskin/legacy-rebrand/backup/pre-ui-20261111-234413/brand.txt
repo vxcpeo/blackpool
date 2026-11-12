@@ -1,0 +1,8 @@
+# brand.txt - historical and current brand names
+# Maintained by the rebrand skill. History may be empty; there is exactly one current brand.
+
+# Historical brands (0..n)
+history: Blackpool
+
+# Current brand (exactly one)
+current: Agpool

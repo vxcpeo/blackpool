@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-12T09:33:34.925Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/blackpool/website",
+    "name": "agpool-website",
+    "baseUrl": "http://127.0.0.1:4317/"
+  },
+  "passed": false,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [
+        "attributes: \"href=/\" count increased 35 -> 36",
+        "attributes: \"href=/app\" count increased 49 -> 50",
+        "links: \"href:/\" count increased 35 -> 36",
+        "links: \"href:/app\" count increased 49 -> 50"
+      ],
+      "hash": "b26b281dc7ca6b484c4fb7e3d7fc605c8a54c45e1a63c48a1c842c25e0460a93"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "bento-canvas",
+        "family": "spatial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": false,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": false,
+          "orbital": false,
+          "terminal": true,
+          "bento": true,
+          "ticker": false,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "marketing-stack",
+        "family": "editorial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": false,
+          "gallery": true
+        }
+      },
+      "accent": {
+        "original": "#4f46e5",
+        "current": "#4c63d2",
+        "deltaE": 31.25,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "numeric token count changed: 36 -> 37 (dynamic values may differ)",
+          "mobile nav: 1 baseline target(s) no longer visible (/private-payments)"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.209,
+          "landmarkSimilarity": 0.5,
+          "classOverlap": 0.011
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 27,
+              "total": 36
+            },
+            "current": {
+              "tokens": 27,
+              "total": 37
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [
+            "mobile nav: 1 baseline target(s) no longer visible (/private-payments)"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      },
+      {
+        "route": "/agents",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.097,
+          "landmarkSimilarity": 0.429,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 71,
+              "total": 172
+            },
+            "current": {
+              "tokens": 71,
+              "total": 172
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/agents-desktop.png",
+          "mobile": "current/agents-mobile.png"
+        }
+      },
+      {
+        "route": "/AGENTS.md",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "mobile: route navigation is not reachable (no visible links or menu toggle)"
+        ],
+        "warnings": [
+          "desktop: empty document title",
+          "desktop: no h1",
+          "mobile: empty document title",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 51,
+              "total": 101
+            },
+            "current": {
+              "tokens": 51,
+              "total": 101
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "mobile: route navigation is not reachable (no visible links or menu toggle)"
+          ],
+          "warnings": [
+            "desktop: empty document title",
+            "desktop: no h1",
+            "mobile: empty document title",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/AGENTS-md-desktop.png",
+          "mobile": "current/AGENTS-md-mobile.png"
+        }
+      },
+      {
+        "route": "/analytics",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.118,
+          "landmarkSimilarity": 0.667,
+          "classOverlap": 0.013
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 57,
+              "total": 72
+            },
+            "current": {
+              "tokens": 57,
+              "total": 72
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/analytics-desktop.png",
+          "mobile": "current/analytics-mobile.png"
+        }
+      },
+      {
+        "route": "/app",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "aria attribute added: aria-label=Private amount",
+          "aria attribute added: aria-label=Recipient address",
+          "desktop: no h1",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.26,
+          "landmarkSimilarity": 0.5,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 1,
+              "total": 1
+            },
+            "current": {
+              "tokens": 1,
+              "total": 1
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [
+            "desktop: no h1",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/app-desktop.png",
+          "mobile": "current/app-mobile.png"
+        }
+      },
+      {
+        "route": "/changelog",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.241,
+          "landmarkSimilarity": 0.5,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 14,
+              "total": 29
+            },
+            "current": {
+              "tokens": 14,
+              "total": 29
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/changelog-desktop.png",
+          "mobile": "current/changelog-mobile.png"
+        }
+      },
+      {
+        "route": "/docs",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.082,
+          "landmarkSimilarity": 0.429,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 24,
+              "total": 41
+            },
+            "current": {
+              "tokens": 24,
+              "total": 41
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/docs-desktop.png",
+          "mobile": "current/docs-mobile.png"
+        }
+      },
+      {
+        "route": "/guides/private-payments-for-ai-agents",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.125,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 2,
+              "total": 3
+            },
+            "current": {
+              "tokens": 2,
+              "total": 3
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/guides-private-payments-for-ai-agents-desktop.png",
+          "mobile": "current/guides-private-payments-for-ai-agents-mobile.png"
+        }
+      },
+      {
+        "route": "/guides/send-crypto-privately",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.154,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 2,
+              "total": 3
+            },
+            "current": {
+              "tokens": 2,
+              "total": 3
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/guides-send-crypto-privately-desktop.png",
+          "mobile": "current/guides-send-crypto-privately-mobile.png"
+        }
+      },
+      {
+        "route": "/llms.txt",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "aria attribute added: aria-label=Agpool home",
+          "aria attribute added: aria-label=Launch the Agpool app",
+          "aria attribute added: aria-label=Ways back",
+          "link target added: /",
+          "link target added: /app"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.118,
+          "landmarkSimilarity": 0,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 1,
+              "total": 1
+            },
+            "current": {
+              "tokens": 1,
+              "total": 1
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/llms-txt-desktop.png",
+          "mobile": "current/llms-txt-mobile.png"
+        }
+      },
+      {
+        "route": "/privacy",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.145,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 2,
+              "total": 3
+            },
+            "current": {
+              "tokens": 2,
+              "total": 3
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/privacy-desktop.png",
+          "mobile": "current/privacy-mobile.png"
+        }
+      },
+      {
+        "route": "/private-payments",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.188,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 1,
+              "total": 1
+            },
+            "current": {
+              "tokens": 1,
+              "total": 1
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/private-payments-desktop.png",
+          "mobile": "current/private-payments-mobile.png"
+        }
+      },
+      {
+        "route": "/private-payments/arbitrum",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.126,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 11,
+              "total": 15
+            },
+            "current": {
+              "tokens": 11,
+              "total": 15
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/private-payments-arbitrum-desktop.png",
+          "mobile": "current/private-payments-arbitrum-mobile.png"
+        }
+      },
+      {
+        "route": "/private-payments/base",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.126,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 11,
+              "total": 15
+            },
+            "current": {
+              "tokens": 11,
+              "total": 15
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/private-payments-base-desktop.png",
+          "mobile": "current/private-payments-base-mobile.png"
+        }
+      },
+      {
+        "route": "/private-payments/bnb-chain",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.126,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 11,
+              "total": 18
+            },
+            "current": {
+              "tokens": 11,
+              "total": 18
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/private-payments-bnb-chain-desktop.png",
+          "mobile": "current/private-payments-bnb-chain-mobile.png"
+        }
+      },
+      {
+        "route": "/private-payments/robinhood-chain",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.126,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 12,
+              "total": 15
+            },
+            "current": {
+              "tokens": 12,
+              "total": 15
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/private-payments-robinhood-chain-desktop.png",
+          "mobile": "current/private-payments-robinhood-chain-mobile.png"
+        }
+      },
+      {
+        "route": "/recover",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.185,
+          "landmarkSimilarity": 0.667,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 2,
+              "total": 2
+            },
+            "current": {
+              "tokens": 2,
+              "total": 2
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/recover-desktop.png",
+          "mobile": "current/recover-mobile.png"
+        }
+      },
+      {
+        "route": "/status",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.118,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0.021
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 15,
+              "total": 15
+            },
+            "current": {
+              "tokens": 15,
+              "total": 15
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/status-desktop.png",
+          "mobile": "current/status-mobile.png"
+        }
+      },
+      {
+        "route": "/terms",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.161,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 11,
+              "total": 13
+            },
+            "current": {
+              "tokens": 11,
+              "total": 13
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/terms-desktop.png",
+          "mobile": "current/terms-mobile.png"
+        }
+      },
+      {
+        "route": "/token",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [],
+        "structure": {
+          "fingerprintSimilarity": 0.157,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 4,
+              "total": 7
+            },
+            "current": {
+              "tokens": 4,
+              "total": 7
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/token-desktop.png",
+          "mobile": "current/token-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [
+    "/AGENTS.md: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/AGENTS.md: landmark layout too similar: 1 > 0.68",
+    "/AGENTS.md: CSS class reuse too high: 1 > 0.1",
+    "/AGENTS.md: mobile: route navigation is not reachable (no visible links or menu toggle)"
+  ],
+  "warnings": [
+    "attributes: \"href=/\" count increased 35 -> 36",
+    "attributes: \"href=/app\" count increased 49 -> 50",
+    "links: \"href:/\" count increased 35 -> 36",
+    "links: \"href:/app\" count increased 49 -> 50",
+    "/: numeric token count changed: 36 -> 37 (dynamic values may differ)",
+    "/: mobile nav: 1 baseline target(s) no longer visible (/private-payments)",
+    "/AGENTS.md: desktop: empty document title",
+    "/AGENTS.md: desktop: no h1",
+    "/AGENTS.md: mobile: empty document title",
+    "/AGENTS.md: mobile: no h1",
+    "/app: aria attribute added: aria-label=Private amount",
+    "/app: aria attribute added: aria-label=Recipient address",
+    "/app: desktop: no h1",
+    "/app: mobile: no h1",
+    "/llms.txt: aria attribute added: aria-label=Agpool home",
+    "/llms.txt: aria attribute added: aria-label=Launch the Agpool app",
+    "/llms.txt: aria attribute added: aria-label=Ways back",
+    "/llms.txt: link target added: /",
+    "/llms.txt: link target added: /app"
+  ],
+  "baseline": {
+    "generatedAt": "2026-11-12T09:26:27.926Z",
+    "routes": [
+      "/",
+      "/agents",
+      "/AGENTS.md",
+      "/analytics",
+      "/app",
+      "/changelog",
+      "/docs",
+      "/guides/private-payments-for-ai-agents",
+      "/guides/send-crypto-privately",
+      "/llms.txt",
+      "/privacy",
+      "/private-payments",
+      "/private-payments/arbitrum",
+      "/private-payments/base",
+      "/private-payments/bnb-chain",
+      "/private-payments/robinhood-chain",
+      "/recover",
+      "/status",
+      "/terms",
+      "/token"
+    ]
+  }
+}

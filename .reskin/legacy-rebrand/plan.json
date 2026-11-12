@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-11T23:20:40+08:00",
+  "project": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website",
+  "old": {
+    "display": "Blackpool",
+    "slug": "blackpool",
+    "variants": {
+      "display": "Blackpool",
+      "lower": "blackpool",
+      "upper": "BLACKPOOL",
+      "title": "Blackpool",
+      "kebab": "blackpool",
+      "snake": "blackpool",
+      "camel": "blackpool",
+      "pascal": "Blackpool",
+      "compact": "Blackpool",
+      "compactLower": "blackpool",
+      "first": "Blackpool",
+      "firstLower": "blackpool",
+      "firstUpper": "BLACKPOOL"
+    },
+    "variantList": [
+      {
+        "value": "Blackpool",
+        "kind": "display"
+      },
+      {
+        "value": "blackpool",
+        "kind": "lower"
+      },
+      {
+        "value": "BLACKPOOL",
+        "kind": "upper"
+      }
+    ],
+    "domains": [
+      "blackpool.cash"
+    ],
+    "handles": [
+      "intheblackpool"
+    ],
+    "emails": [
+      "hello@blackpool.cash"
+    ],
+    "packageNames": [
+      "blackpool-website"
+    ],
+    "initials": "",
+    "allowFiles": [],
+    "allowStrings": []
+  },
+  "new": {
+    "display": "Agpool",
+    "slug": "agpool",
+    "domain": "agpool.cash",
+    "email": "hello@agpool.cash",
+    "handle": "agpool_robin",
+    "url": "https://agpool.cash",
+    "note": "Name and X handle mandated by the user; the original .cash TLD is kept."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "d4eb4b2a58d28b9568507d05a125c520fa48604046472340d390f08861168095"
+    },
+    {
+      "path": "README.md",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 6,
+      "counts": {
+        "blackpool.cash": 2,
+        "Blackpool": 4
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "15c4ea1ef7fd8f17d9fc342c9a0121e529d4cc4995ad4d7ddfa8a85f8f8ff287"
+    },
+    {
+      "path": "index.html",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 26,
+      "counts": {
+        "hello@blackpool.cash": 1,
+        "@intheblackpool": 2,
+        "blackpool.cash": 12,
+        "intheblackpool": 1,
+        "Blackpool": 8,
+        "blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 2,
+      "hashBefore": "6cec565df9a7bb6ff5c6aeb8b90b6a83771894a6b1267e37d4b40d2e0287fb9a"
+    },
+    {
+      "path": "package.json",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "blackpool-website": 1,
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "60a80b9ab7160eb2a85decd541520b436803934d5dc6bd7dc091a2bf3337235e"
+    },
+    {
+      "path": "vite.config.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "00f6cdba97945d4982565a58295d449ab0c90901a8fd7f995f190004bf3b44de"
+    },
+    {
+      "path": "public/AGENTS.md",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 143,
+      "counts": {
+        "hello@blackpool.cash": 1,
+        "blackpool.cash": 17,
+        "Blackpool": 12,
+        "blackpool": 92,
+        "BLACKPOOL": 21
+      },
+      "unprotectedHits": [],
+      "protectedCount": 2,
+      "hashBefore": "e3d68ba7c4428fc3f372d8166cd1988795d93346437e03ba385baf74996406f5"
+    },
+    {
+      "path": "src/App.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "7b6e8889e08fc521d5b2d7d4fda645a0777d872f8f71798f563cb0326f5ce20f"
+    },
+    {
+      "path": "src/main.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c9ef63835afa19ffc653a1ff67caa4c599db4928537a81609a11b6088e050006"
+    },
+    {
+      "path": "src/components/AgentsSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 11,
+      "counts": {
+        "Blackpool": 1,
+        "blackpool": 9,
+        "BLACKPOOL": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 1,
+      "hashBefore": "45780152b67d38d9da495bf00bcaed5819e1a4821186e589175ed1706a9aa970"
+    },
+    {
+      "path": "src/components/BentoSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "Blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "fb523fc4132f96f9c9fd18acfe99bf231248088740a3791a1ac1d87b173097b7"
+    },
+    {
+      "path": "src/components/BrandMark.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c13ee95b377fe2742d3571b6f3a831a7b56f0a2926d254e7ebc5fa7f8a3d9b52"
+    },
+    {
+      "path": "src/components/ChangelogToast.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c007fec27e6090aaf80116eb8a39528caa3e113f49c5811eca75aa344ad06d1e"
+    },
+    {
+      "path": "src/components/CtaSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "64cc80caab05430f8d032e65d0276f54b4bf1f20210c1c22e78dbc9e5fc23a70"
+    },
+    {
+      "path": "src/components/FaqSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "981415afc57324dc5aad66aaa948d5183d607432d72ccfb3815a10340bd2bd6c"
+    },
+    {
+      "path": "src/components/HeroSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c343a643ad1b416b2c9ac360386ee0f845cab63322464559c4f1ee6b6fca2b70"
+    },
+    {
+      "path": "src/components/NavIcon.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "397208975e79969f0aaf6c21ea97be1a07cf71088ca6b488588662fa2a3a67b6"
+    },
+    {
+      "path": "src/components/PrinciplesSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "9cc512f21e4725af69b645263a4c5e2ff21e79d8d0c7d6a62d598eeb8bc57bad"
+    },
+    {
+      "path": "src/components/ProductWindow.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 6,
+      "counts": {
+        "Blackpool": 1,
+        "blackpool": 5
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "0e3d56f0e55952ddcdda61f0ea3664abfa7b23b4fc69cd33fb3798a4bc3cb056"
+    },
+    {
+      "path": "src/components/RaysBackground.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "1afffd9ae41877f43da8409c364404310290a893519561c6d317071047648b56"
+    },
+    {
+      "path": "src/components/SiteFooter.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 7,
+      "counts": {
+        "hello@blackpool.cash": 1,
+        "@intheblackpool": 2,
+        "intheblackpool": 2,
+        "Blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 5,
+      "hashBefore": "109343c24a17067d2ffe39bb919e3912ad1d09b4857d5d805445711450c299d3"
+    },
+    {
+      "path": "src/components/SiteNav.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "94fa040d82c7c47db994273c304ad36a5cd24bbfcc804c4c4b06a8023c739969"
+    },
+    {
+      "path": "src/components/SiteNotice.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "@intheblackpool": 1,
+        "intheblackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "51a511f16721c6ed7b424aab814c1acf7232ed4f548d7acdc61fd4647954b68e"
+    },
+    {
+      "path": "src/components/UseCasesSection.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "Blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "4787119d240d03e76a3ac6cffb6da9679cd06c37a16b5402c759a9bd4f4be067"
+    },
+    {
+      "path": "src/components/WordmarkCanvas.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 3,
+      "counts": {
+        "Blackpool": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "02f697934727406537f8702ba64f51c0816acc443358942c7fe9bfc32dc3be47"
+    },
+    {
+      "path": "src/components/app/AccountMenu.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "98cabe4631d9170687c7096230f21411749099240e1bb079bac79e87cdfcba6a"
+    },
+    {
+      "path": "src/components/app/ActionModal.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "10ffa3783a123ab312fcd85c25e0aba377e8dcdf555fa260ff88c720e3d8d271"
+    },
+    {
+      "path": "src/components/app/AppFooter.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 4,
+      "counts": {
+        "Blackpool": 4
+      },
+      "unprotectedHits": [],
+      "protectedCount": 1,
+      "hashBefore": "3f9a8c4063cab007ac01a1b2dd769346673e8a1089f43147508736d26337264b"
+    },
+    {
+      "path": "src/components/app/ConnectModal.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "BLACKPOOL": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "969285630ee315b1bd5fc6e235b9f67f341d11e3b0fbd8a46d495ad6aa9f35cc"
+    },
+    {
+      "path": "src/components/app/TopUpModal.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "9a101d8c2ae5ff54b33cdb6f28140ed4e9ca8200e10619287aa790b7f5986538"
+    },
+    {
+      "path": "src/composables/useBalances.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "9436c97df69114ecddb4ced18762110dabc6502c637e06405a404aa8508e2d4b"
+    },
+    {
+      "path": "src/composables/useChangelog.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "a7043552b0ae6c1383a6cab1a042ea1ee03d362da8ddb9a2ebed73efbb80ae90"
+    },
+    {
+      "path": "src/composables/useCopyControls.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c7d216a478b3603e329f5ac80e3d97dcfbabd805c3de529d7dcd796329a50fa6"
+    },
+    {
+      "path": "src/composables/useLandingEffects.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "8cf298ce5d7f2983b6d7d4cc57f17efe0dbc7913f007b685b3de9a904ef05a98"
+    },
+    {
+      "path": "src/composables/useLinkInterception.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "bab64b80d92ad4d4479e60940d2460e0be7f7f55337fcd83ba8f3947845a37b6"
+    },
+    {
+      "path": "src/composables/usePriceFeed.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 3,
+      "counts": {
+        "blackpool\\.cash": 1,
+        "blackpool.cash": 1,
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "f118d49a3e765cad6bc22e69c544ed022de2707111219e2475a530fa0c7aa228"
+    },
+    {
+      "path": "src/composables/usePrivateAccount.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "19bfb54935cbc11be3018a2fff29724ee4e320f419abac09be638066f48facf1"
+    },
+    {
+      "path": "src/composables/useStatusRefresh.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "8c1f05d9edd83e6943cfca36c6633ac49a027dc48a60ddbe7f4b17a276429ca9"
+    },
+    {
+      "path": "src/composables/useWallet.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 6,
+      "counts": {
+        "Blackpool": 1,
+        "blackpool": 5
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c1740cc653ea9efcbe84b75fde72d76de63a621f22f2173d60b85d5ab5472064"
+    },
+    {
+      "path": "src/data/agentPrompt.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 11,
+      "counts": {
+        "blackpool.cash": 1,
+        "blackpool": 7,
+        "BLACKPOOL": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "ca013d282137724db01c0ee47724335764bc03bb9e010b7270bce698881c54b3"
+    },
+    {
+      "path": "src/data/chains.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 1,
+      "counts": {
+        "Blackpool": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "dd9233613a5e6d0bd0a9cba6b79654e446ad46c612001bd6ecd70912b1c4b519"
+    },
+    {
+      "path": "src/data/nav.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "4d2e0cb54b2b00868ea88401a9cc7b903a78f75a6d1f92c382f5ae1923d0c665"
+    },
+    {
+      "path": "src/router/index.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 32,
+      "counts": {
+        "blackpool.cash": 1,
+        "Blackpool": 31
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "bac92c35d67925d70b1efc8f6a2dad71eff7999be94d7923e603ff4ca64f7cca"
+    },
+    {
+      "path": "src/styles/app.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "12326916228dbc9c10e8a9c93c6c3967ece359e49a1d4a5bddc389bc2580ab8a"
+    },
+    {
+      "path": "src/styles/base.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "aa075f768db305ecf08acd240094786052f9a25fc6fbcc44b5aff112175bf141"
+    },
+    {
+      "path": "src/styles/landing.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "d24a8cf793d9ba42ac07848e3ced1b7d9c2fb4522635434f7267b9103ac5445b"
+    },
+    {
+      "path": "src/styles/notice.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "18aec669c50e943602e14285e72e30f87ffa32985f7cf91a484d9e25e8a7497f"
+    },
+    {
+      "path": "src/styles/content/agents.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "66d8eb2641b2be3466bdc23aadf05e73ce114bca62a8a083c0f0ece55647d307"
+    },
+    {
+      "path": "src/styles/content/analytics.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "3b5d8f3b301e7d73de66b1f327b19be91382ecc63fae03a7488c156198a3bace"
+    },
+    {
+      "path": "src/styles/content/content.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "b3bb89ea24d1bbab8936a574543d5c70b612776089493e493d6411d56dc1dd66"
+    },
+    {
+      "path": "src/styles/content/docs.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "a7263dd5e9bd5271a92734e1c62c0cbf451292b8cf8f2e855923f4a9fdf43f48"
+    },
+    {
+      "path": "src/styles/content/recover.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "140b0fee5624e951de8f6fe5a5dba154ee3bafbe285ef0d5ade2968ae181d90e"
+    },
+    {
+      "path": "src/styles/content/static-page.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "a3eccefcb14610c75401bc4e831379c714714fb470067b471246029fc4812cb2"
+    },
+    {
+      "path": "src/styles/content/token.css",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "dbfc4e612748643373afc038ff40977b74f0960b128d95501270df3fbb07aa0e"
+    },
+    {
+      "path": "src/utils/format.js",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "c83c12930e1c64b970c7da08c580b20fbb7eabd4e24e77652d2b905ea6a23539"
+    },
+    {
+      "path": "src/views/HomeView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "f65525b9faebac5b59be53c9d9dcefba4969d996bcea76efcb8624f18bc148d2"
+    },
+    {
+      "path": "src/views/NotFoundView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 0,
+      "counts": {},
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "ac047c122aa2ee0514e86e1f05c93ea38f8becdc3a58301867021b9d3685815e"
+    },
+    {
+      "path": "src/views/pages/AgentsView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 145,
+      "counts": {
+        "hello@blackpool.cash": 4,
+        "blackpool.cash": 12,
+        "Blackpool": 14,
+        "blackpool": 92,
+        "BLACKPOOL": 23
+      },
+      "unprotectedHits": [],
+      "protectedCount": 3,
+      "hashBefore": "48d34712676e0ffdc0cddf59b6a676d0a68f312ff1d7916391ad034727dbbde6"
+    },
+    {
+      "path": "src/views/pages/AnalyticsView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "Blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "49da773d30d0c1cdb4b91d79c5e21dc64969d5ba3796f8393ea18f58e476e5ee"
+    },
+    {
+      "path": "src/views/pages/AppView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "Blackpool": 1,
+        "BLACKPOOL": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "cf0071cd115c81983756464407e5bc68f17a131f6f56e199de6b22a510ad9dc4"
+    },
+    {
+      "path": "src/views/pages/ChainArbitrumView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 15,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 7,
+        "blackpool": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "fa6246aadb373fa445c5ea79646a7d5a31cd2e380326b22d0301e58728a724ef"
+    },
+    {
+      "path": "src/views/pages/ChainBaseView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 15,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 7,
+        "blackpool": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "1c57f4af26eb8e27bcc7dbe9b708721d6e7adc778839dcfe5bd001f7ab51cfb0"
+    },
+    {
+      "path": "src/views/pages/ChainBnbView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 15,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 7,
+        "blackpool": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "e75f6ad5fe394f34ef29a0216f5b7dca14c1e482d65fd25288049babdcbbc2b0"
+    },
+    {
+      "path": "src/views/pages/ChainRobinhoodView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 15,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 7,
+        "blackpool": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "ab931494ba9e9a0533fd4012a2de30d97c11e52afd488e5a14653b5f00a73e74"
+    },
+    {
+      "path": "src/views/pages/ChangelogView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 62,
+      "counts": {
+        "@intheblackpool": 5,
+        "blackpool.cash": 16,
+        "intheblackpool": 2,
+        "Blackpool": 17,
+        "blackpool": 21,
+        "BLACKPOOL": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 1,
+      "hashBefore": "21fd6105200b49e1b9848d7ae3a36bd616c06736cccefde0797e6a24fc79a6e2"
+    },
+    {
+      "path": "src/views/pages/DocsView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 40,
+      "counts": {
+        "@intheblackpool": 1,
+        "blackpool.cash": 4,
+        "intheblackpool": 1,
+        "Blackpool": 10,
+        "blackpool": 18,
+        "BLACKPOOL": 6
+      },
+      "unprotectedHits": [],
+      "protectedCount": 1,
+      "hashBefore": "8b1829f91e790b247aaa54d587270da9884cc2cfb0c88d3d760936b1827b075b"
+    },
+    {
+      "path": "src/views/pages/GuideAgentsView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 31,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "blackpool.cash": 1,
+        "intheblackpool": 2,
+        "Blackpool": 5,
+        "blackpool": 14,
+        "BLACKPOOL": 6
+      },
+      "unprotectedHits": [],
+      "protectedCount": 1,
+      "hashBefore": "1b58cca93790b655a65711adce7e5030a8ec06dc70026e47c3559fccde4f7259"
+    },
+    {
+      "path": "src/views/pages/GuideSendView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 12,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "blackpool.cash": 1,
+        "intheblackpool": 2,
+        "Blackpool": 6
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "346c4a963f0e2acc5cba15df89ee39c6f3a43a0e30649eafcc4adfff81b24976"
+    },
+    {
+      "path": "src/views/pages/PrivacyView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 13,
+      "counts": {
+        "hello@blackpool.cash": 4,
+        "@intheblackpool": 1,
+        "blackpool.cash": 2,
+        "intheblackpool": 2,
+        "Blackpool": 4
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "b5e83461c1bb17835d7ef25db8e23b46e0b065ddbd3af800bbf3151e73e80249"
+    },
+    {
+      "path": "src/views/pages/PrivatePaymentsView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 8,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 3
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "de360573ab7f942f3d5d3484b71397a0ad4c01e9b3c68b8e8850d0085be68d16"
+    },
+    {
+      "path": "src/views/pages/RecoverView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 2,
+      "counts": {
+        "Blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "6c8694065b810b95b81993a057bb3594a0643611bf6e3b315b444007f31b2ac7"
+    },
+    {
+      "path": "src/views/pages/StatusView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 7,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 2
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "d4a124e2a8d05382e7bfac12d8eb93f77eabd4ea769e395867b9e38500e83c76"
+    },
+    {
+      "path": "src/views/pages/TermsView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 16,
+      "counts": {
+        "hello@blackpool.cash": 4,
+        "@intheblackpool": 1,
+        "intheblackpool": 2,
+        "Blackpool": 9
+      },
+      "unprotectedHits": [],
+      "protectedCount": 0,
+      "hashBefore": "09d92b86254b8e9dd3dd141fc1e6515e2dafedaf29fe1a975fcac84b65a26af9"
+    },
+    {
+      "path": "src/views/pages/TokenView.vue",
+      "encoding": "utf-8",
+      "bom": false,
+      "replacements": 18,
+      "counts": {
+        "hello@blackpool.cash": 2,
+        "@intheblackpool": 2,
+        "blackpool.cash": 3,
+        "intheblackpool": 3,
+        "Blackpool": 5,
+        "blackpool": 2,
+        "BLACKPOOL": 1
+      },
+      "unprotectedHits": [],
+      "protectedCount": 1,
+      "hashBefore": "b73b0f5f65cd0a1902290224ada386a7f899973eaf07d36a85ce81ad9247ead3"
+    }
+  ],
+  "renames": [],
+  "assets": [
+    {
+      "source": "public/apple-icon.png",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\apple-icon.png",
+      "target": "public/apple-icon.png",
+      "kind": "icon"
+    },
+    {
+      "source": "public/favicon.svg",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\favicon.svg",
+      "target": "public/favicon.svg",
+      "kind": "favicon"
+    },
+    {
+      "source": "public/mark.svg",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\mark.svg",
+      "target": "public/mark.svg",
+      "kind": "logo"
+    },
+    {
+      "source": "public/og.png",
+      "generated": "E:\\workspace\\chuangye\\ROBIN\\blackpool\\website\\.rebrand\\generated\\public\\og.png",
+      "target": "public/og.png",
+      "kind": "og"
+    }
+  ],
+  "protectedHits": [
+    "index.html: 2 protected occurrence(s)",
+    "public/AGENTS.md: 2 protected occurrence(s)",
+    "src/components/AgentsSection.vue: 1 protected occurrence(s)",
+    "src/components/SiteFooter.vue: 5 protected occurrence(s)",
+    "src/components/app/AppFooter.vue: 1 protected occurrence(s)",
+    "src/views/pages/AgentsView.vue: 3 protected occurrence(s)",
+    "src/views/pages/ChangelogView.vue: 1 protected occurrence(s)",
+    "src/views/pages/DocsView.vue: 1 protected occurrence(s)",
+    "src/views/pages/GuideAgentsView.vue: 1 protected occurrence(s)",
+    "src/views/pages/TokenView.vue: 1 protected occurrence(s)"
+  ],
+  "protectedCount": 18,
+  "brandRegistry": {
+    "ok": true,
+    "problems": [],
+    "path": "E:/workspace/chuangye/ROBIN/blackpool/website/brand.txt",
+    "exists": true,
+    "history": [
+      "Blackpool"
+    ],
+    "current": "Agpool",
+    "currentCount": 1,
+    "warnings": [],
+    "unknownLines": []
+  },
+  "blocked": false,
+  "blockers": []
+}
